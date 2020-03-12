@@ -1,0 +1,41 @@
+.footer {
+  height: 250px;
+  background-color: #232123;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Spartan', sans-serif;
+}
+
+.footer img.logo {
+  width: auto;
+  height: 60%;
+}
+
+.footer .item {
+  width: 15%;
+  min-width: 200px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer .credits {
+  line-height: 1.7em;
+}
+
+.footer .item.share {
+  font-size: 18px;
+  width: 10%;
+  min-width: 150px;
+}
+
+.footer .share .icon{
+  margin-right: 30px;
+}
+
+.footer .item.cc {
+  line-height: 1.2em;
+}
