@@ -1,6 +1,6 @@
 
 .topnav {
-  overflow: hidden;
+  overflow-x: scroll;
   background-color: white;
   display: flex;
   align-items: center;
@@ -8,6 +8,10 @@
   font-family: 'Spartan', sans-serif;
   background-color: #f4efed;
   color:#232123;
+}
+
+.topnav .link {
+  min-width: 150px;
 }
 
 .topnav a {
