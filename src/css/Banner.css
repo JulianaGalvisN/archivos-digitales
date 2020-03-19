@@ -7,7 +7,6 @@
   align-items: center;
   justify-content: center;
   font-family: 'Share Tech Mono', monospace;
-  font-size: 30px;
   /* Bg styles */
   background-position: center;
   background-size: cover;
@@ -16,6 +15,7 @@
 
 .Banner h2.title {
   margin-block-start: 0em;
+  font-size: 45px;
   margin-block-end: 0em;
   background-color: #232123;
   color: #f4efed;
