@@ -26,11 +26,11 @@ function App() {
           <img src={activismo_img} alt="Imagen de activismo de género"/>
         </div>
         <div className="text">
-          <div>
-            <h2 className="title">
+          <div className="headline">
+            <h2 className="title1">
             El activismo
             </h2>
-            <h2 className="title">
+            <h2 className="title2">
             de género
             </h2>
           </div>
