@@ -7,12 +7,29 @@ import '../css/App.css'
 import linea_tiempo from '../images/linea_tiempo.png'
 import archivo from '../images/archivo.png'
 import activismo_img from '../images/activismo-home.png'
+import cano from '../images/cano.png'
 
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+
+      <div className="bannerinit">
+        <div className="image">
+          <img src={cano} alt="Imagen de María Cano"/>
+        </div>
+        <div className="text1">
+          <div className="headline1">
+              <h2 className="title3">
+              Archivos
+              </h2>
+              <h2 className="title4">
+              Digitales
+              </h2>
+            </div>
+          </div>
+      </div>
 
       <Banner
       title1="Explora"

@@ -3,6 +3,40 @@
   font-family: 'Spartan', sans-serif;
 }
 
+.App .bannerinit {
+  height: 800px;
+}
+
+.App .bannerinit .text1 .headline1 {
+
+}
+
+.App .bannerinit .text1 .headline1 h2.title3 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232123;
+  color: #f4efed;
+  padding: 7px;
+  font-family: 'Share Tech Mono', monospace;
+  width: initial;
+  font-size: 70px;
+  margin-bottom: 20px;
+  margin-top: -720px;
+}
+
+.App h2.title4 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232123;
+  color: #ff3e71;
+  padding: 7px;
+  font-family: 'Share Tech Mono', monospace;
+  width: initial;
+  font-size: 70px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
 .App .bottom {
   display: flex;
   height: 600px;
@@ -71,7 +105,19 @@
 
 .App .paragraph {
   margin-left: 260px;
-    margin-right: -150px;
-    display: inline-block;
-    word-spacing: 3px;
+  margin-right: -150px;
+  display: inline-block;
+  word-spacing: 3px;
+}
+
+.App .headline1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 600px;
+}
+
+.App .bannerinit .image img {
+  height: -webkit-fill-available;
+  width: auto;
 }
