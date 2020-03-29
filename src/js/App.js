@@ -27,23 +27,25 @@ function App() {
               <h2 className="title4">
               digitales
               </h2>
-          </div>
           <div className="headline2">
             <h2 className="title5">
             para activistas de género
             </h2>
           </div>
+          <div className="descriptiontop">
+            <h2 className="titledescriptiontop">
+            ¿Qué es?
+            </h2>
+            <div className="textdescription">
+              <p>
+              Este manual se crea en el marco de un proyecto de investigación de maestría en Humanidades Digitales de la Universidad de Los Andes. Consiste en brindar recursos sobre el archivo digital existente en Colombia y su posible uso por parte de activistas de género en Colombia.
+              </p>
+              <p>
+              Contiene un marco de referencia con los conceptos trabajados en el proyecto, un marco legal colombiano y un paso a paso de cómo pedir información. A su vez da a conocer el archivo digital existente en Colombia, y la información contenida en ellos que posiblemente sea útil para activistas de género.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="descriptiontop">
-          <h2 className="titledescriptiontop">
-          ¿Qué es?
-          </h2>
-          <p>
-          Este manual se crea en el marco de un proyecto de investigación de maestría en Humanidades Digitales de la Universidad de Los Andes. Consiste en brindar recursos sobre el archivo digital existente en Colombia y su posible uso por parte de activistas de género en Colombia.
-          </p>
-          <p>
-          Contiene un marco de referencia con los conceptos trabajados en el proyecto, un marco legal colombiano y un paso a paso de cómo pedir información. A su vez da a conocer el archivo digital existente en Colombia, y la información contenida en ellos que posiblemente sea útil para activistas de género.
-          </p>
         </div>
       </div>
 
