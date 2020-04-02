@@ -14,7 +14,7 @@ function About(props) {
       title2="manual"
       bgImage={este_manual}
       height="350px"
-      margin="true"
+      margin="Banner margin"
       />
     </div>
 

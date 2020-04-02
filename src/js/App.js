@@ -40,7 +40,8 @@ function App() {
       title2="el archivo"
       link="/archivos"
       bgImage={archivo}
-      height="455px"/>
+      height="455px"
+      margin="Banner"/>
 
       <div className="activism">
         <div className="image">
@@ -65,7 +66,8 @@ function App() {
       title2="de tiempo"
       link="/activismo"
       bgImage={linea_tiempo}
-      height="455px"/>
+      height="455px"
+      margin="Banner"/>
 
       <Footer/>
 
