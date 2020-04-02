@@ -1,13 +1,11 @@
 .Banner {
   color: white;
   height: 455px;
-  /* Center text */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Share Tech Mono', monospace;
-  /* Bg styles */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +13,7 @@
 
 .Banner h2.title {
   margin-block-start: 0em;
-  font-size: 45px;
+  font-size: 2.7em;
   margin-block-end: 0em;
   background-color: #232123;
   color: #f4efed;
