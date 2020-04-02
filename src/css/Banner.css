@@ -31,3 +31,7 @@
   background-color: #ff3e71;
   color: #232123;
 }
+
+.Banner.margin {
+  margin: 0px 20px;
+}
