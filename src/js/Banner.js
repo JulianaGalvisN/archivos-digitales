@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Banner(props) {
   const imageUrl = `url(${props.bgImage})`
   return (
-    <div className="Banner" style={{ backgroundImage: imageUrl, height: props.height, color: props.color }}>
+    <div className="{ props.margin ? Banner margin : Banner}" style={{ backgroundImage: imageUrl, height: props.height, color: props.color,}}>
       <h2 className="title">
         { props.title1 }
       </h2>
