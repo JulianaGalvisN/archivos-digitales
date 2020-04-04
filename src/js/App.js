@@ -47,6 +47,7 @@ function App() {
         <div className="image">
           <img src={activismo_img} alt="Imagen de activismo de género"/>
         </div>
+        {/* Reutilizar este bloque de código para títulos y párrafos */}
         <div className="text">
           <div className="title-container">
             <h2 className="title">El activismo</h2>
@@ -58,6 +59,7 @@ function App() {
           Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feu giat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
           </p>
         </div>
+        {/* Hasta aquí */}
       </div>
 
 

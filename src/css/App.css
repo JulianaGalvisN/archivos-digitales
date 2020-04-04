@@ -6,12 +6,13 @@
 .App .home {
   display: flex;
   margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App .home img.image {
-  height: 80%;
-  width: auto;
-  margin-left: 5%;
+  width: 50%;
+  height: auto;
 }
 
 .App .title {
@@ -74,11 +75,17 @@
   transform: rotate(180deg);
   font-size: 2.7em;
   padding: 8px;
+  margin-right: 40px;
 }
 
 .App .intro.text {
-  margin-top: 200px;
-  margin-left: -10%;
+  margin-top: 80px;
+  margin-left: -13%;
+  width: 80%;
+}
+
+.App .intro.text .paragraph {
+  margin-bottom: 80px;
 }
 
 .App .activism {
@@ -116,4 +123,19 @@
 
 .App .activism .title {
   margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .App .home {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .App .home img.image {
+    height: 80%;
+    width: auto;
+    margin-left: 5%;
+  }
+
 }
