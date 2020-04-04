@@ -1,0 +1,9 @@
+.About {
+  background-color: #f4efed;
+  font-family: 'Spartan', sans-serif;
+}
+
+.App .intro.text {
+  margin-top: 200px;
+  margin-left: -10%;
+}

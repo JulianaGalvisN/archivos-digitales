@@ -133,8 +133,8 @@
   }
 
   .App .home img.image {
-    height: 80%;
-    width: auto;
+  /*  height: 80%;
+    width: auto;*/
     margin-left: 5%;
   }
 
