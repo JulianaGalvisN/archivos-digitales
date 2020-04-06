@@ -1,26 +1,39 @@
-.topnav {
-  background-color: white;
+#responsiveBar {
+  display: none;
+}
+
+#desktopBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.topnav {
   font-family: 'Spartan', sans-serif;
   background-color: #f4efed;
   color:#232123;
   padding: 0 20px;
 }
 
+.topnav .navitem {
+  display: block;
+}
+
 .topnav .logo a {
   padding-left: 0;
 }
 
-.topnav img {
+.topnav img.logo {
   width: 200px;
   height: auto;
 }
 
 .topnav .links {
+  float: left;
   display: flex;
   justify-content: flex-end;
+  flex-flow: row;
+  height: 100%;
 }
 
 .topnav .link {
@@ -38,4 +51,14 @@
 
 .topnav a:hover {
   color: #ff3e71;
+}
+
+@media screen and (max-width: 1150px) {
+  #responsiveBar {
+    display: block;
+  }
+
+  #desktopBar {
+    display: none;
+  }
 }
