@@ -3,7 +3,64 @@
   font-family: 'Spartan', sans-serif;
 }
 
-.App .intro.text {
-  margin-top: 200px;
-  margin-left: -10%;
+.About .intro {
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.About .intro.text {
+  margin-top: 60px;
+  margin-left: 100px;
+  width: 50%;
+}
+
+.About .intro .title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 2.7em;
+  padding: 8px;
+  margin-right: 40px;
+}
+
+.About .title {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232123;
+  color: #f4efed;
+  padding: 8px;
+  font-family: 'Share Tech Mono', monospace;
+  width: initial;
+  letter-spacing: -0.03em;
+  font-size: 2.7em;
+}
+
+.About .paragraph {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.About .headline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.About .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50%;
+}
+
+.About .headline .title {
+  padding: 8px;
+  font-size: 2.7em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.About .headline .paragraph {
+  width: 80%;
 }
