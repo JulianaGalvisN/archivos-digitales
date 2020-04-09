@@ -1,0 +1,13 @@
+.activismo {
+  background-color: #f4efed;
+  font-family: 'Spartan', sans-serif;
+}
+
+.activismo .paragraph {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.5em;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 30px;
+} 

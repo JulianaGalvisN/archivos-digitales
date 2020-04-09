@@ -1,0 +1,55 @@
+.Metodologia {
+  background-color: #f4efed;
+  font-family: 'Spartan', sans-serif;
+}
+
+.Metodologia .title {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232123;
+  color: #f4efed;
+  padding: 8px;
+  font-family: 'Share Tech Mono', monospace;
+  width: initial;
+  letter-spacing: -0.03em;
+  font-size: 2.7em;
+}
+
+.Metodologia .paragraph {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.Metodologia .headline-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.Metodologia .headline-left .paragraph {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.Metodologia .headline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Metodologia .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50%;
+}
+
+.Metodologia .headline .paragraph {
+  width: 90%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
