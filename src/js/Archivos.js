@@ -18,7 +18,10 @@ class Archivos extends React.Component {
     this.state = {
       data: null,
       tags: null,
-      selectedTag: '',
+      tag: {
+        uid: '',
+        label: '',
+      },
       archives: null,
     };
   }
@@ -34,19 +37,21 @@ class Archivos extends React.Component {
           data: res.data,
           tags: res.data['diccionario-tags'],
           archives: res.data.archivo_existente.filter((archive) => {
-            return archive.tags.includes(state.selectedTag);
+            return archive.tags.includes(state.tag.uid);
           }),
         }));
       });
   }
 
-  filterArchives = (event) => {
+  filterArchives = (uid, nombre) => {
     // Esto es propio
-    const value = event.target.value;
     this.setState((state) => ({
-      selectedTag: value,
+      tag: {
+        uid,
+        label: nombre,
+      },
       archives: state.data.archivo_existente.filter((archive) => {
-        return archive.tags.includes(value);
+        return archive.tags.includes(uid);
       }),
     }));
   };
@@ -65,16 +70,14 @@ class Archivos extends React.Component {
         />
 
         <div className="filtros">
-          {/* Estos son los dropdowns pero toca modificarlos en el archivo Dropdown.js porque no tienen funcionalidad aún */}
-          {/* <Dropdown name="Tema" options="Todos" />
-          <Dropdown name="Tipo" options="Todos" /> */}
-          <select onChange={this.filterArchives}>
-            <option value="">Todas</option>
-            {this.state.tags &&
-              this.state.tags.map((tag) => (
-                <option value={tag.uid}>{tag.nombre}</option>
-              ))}
-          </select>
+          {this.state.tags && (
+            <Dropdown
+              name="Tema"
+              options={this.state.tags}
+              selected={this.state.tag.label}
+              onUpdate={this.filterArchives}
+            />
+          )}
           <div className="searchbar">
             <p className="name">Búsqueda</p>
             <div className="bar">
