@@ -23,6 +23,7 @@ class Archivos extends React.Component {
         label: '',
       },
       archives: null,
+      query: '',
     };
   }
 
@@ -37,7 +38,11 @@ class Archivos extends React.Component {
           data: res.data,
           tags: res.data['diccionario-tags'],
           archives: res.data.archivo_existente.filter((archive) => {
-            return archive.tags.includes(state.tag.uid);
+            const matches = archive.nombre
+              .toLowerCase()
+              .includes(state.query.toLowerCase());
+            const hasTag = archive.tags.includes(state.tag.uid);
+            return matches && hasTag;
           }),
         }));
       });
@@ -51,7 +56,26 @@ class Archivos extends React.Component {
         label: nombre,
       },
       archives: state.data.archivo_existente.filter((archive) => {
-        return archive.tags.includes(uid);
+        const matches = archive.nombre
+          .toLowerCase()
+          .includes(state.query.toLowerCase());
+        const hasTag = archive.tags.includes(state.tag.uid);
+        return matches && hasTag;
+      }),
+    }));
+  };
+
+  search = (event) => {
+    const query = event.target.value.trim();
+    this.setState((state) => ({
+      query,
+      // This code is replicated everywhere. Not good
+      archives: state.data.archivo_existente.filter((archive) => {
+        const matches = archive.nombre
+          .toLowerCase()
+          .includes(state.query.toLowerCase());
+        const hasTag = archive.tags.includes(state.tag.uid);
+        return matches && hasTag;
       }),
     }));
   };
@@ -81,7 +105,12 @@ class Archivos extends React.Component {
           <div className="searchbar">
             <p className="name">Búsqueda</p>
             <div className="bar">
-              <input type="text" id="search" name="search" />
+              <input
+                type="text"
+                id="search"
+                name="search"
+                onChange={this.search}
+              />
               <div className="icon">
                 <img className="image" src={lupa} alt="Ícono de lupa" />
               </div>
