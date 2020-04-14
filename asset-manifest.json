@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/archivos-digitales/static/css/main.5a1caa9e.chunk.css",
+    "main.js": "/archivos-digitales/static/js/main.a817a71a.chunk.js",
+    "main.js.map": "/archivos-digitales/static/js/main.a817a71a.chunk.js.map",
+    "runtime-main.js": "/archivos-digitales/static/js/runtime-main.80a1d64e.js",
+    "runtime-main.js.map": "/archivos-digitales/static/js/runtime-main.80a1d64e.js.map",
+    "static/js/2.db8b6c1f.chunk.js": "/archivos-digitales/static/js/2.db8b6c1f.chunk.js",
+    "static/js/2.db8b6c1f.chunk.js.map": "/archivos-digitales/static/js/2.db8b6c1f.chunk.js.map",
+    "index.html": "/archivos-digitales/index.html",
+    "precache-manifest.5d6c1f2f5e5f6b88bbaeb3d4ac1fdac3.js": "/archivos-digitales/precache-manifest.5d6c1f2f5e5f6b88bbaeb3d4ac1fdac3.js",
+    "service-worker.js": "/archivos-digitales/service-worker.js",
+    "static/css/main.5a1caa9e.chunk.css.map": "/archivos-digitales/static/css/main.5a1caa9e.chunk.css.map",
+    "static/js/2.db8b6c1f.chunk.js.LICENSE.txt": "/archivos-digitales/static/js/2.db8b6c1f.chunk.js.LICENSE.txt",
+    "static/media/activismo-home.png": "/archivos-digitales/static/media/activismo-home.2bf0435f.png",
+    "static/media/activismo.png": "/archivos-digitales/static/media/activismo.ec9769f3.png",
+    "static/media/archivo.png": "/archivos-digitales/static/media/archivo.4ff35181.png",
+    "static/media/banner-archivos.png": "/archivos-digitales/static/media/banner-archivos.cd99750a.png",
+    "static/media/cano.png": "/archivos-digitales/static/media/cano.7fe043bd.png",
+    "static/media/cc.svg": "/archivos-digitales/static/media/cc.0f2b1601.svg",
+    "static/media/este-manual.png": "/archivos-digitales/static/media/este-manual.a4f8be0d.png",
+    "static/media/fb.svg": "/archivos-digitales/static/media/fb.58f76f29.svg",
+    "static/media/hamburger.svg": "/archivos-digitales/static/media/hamburger.84116c77.svg",
+    "static/media/linea_tiempo.png": "/archivos-digitales/static/media/linea_tiempo.5f93011a.png",
+    "static/media/logo_footer.svg": "/archivos-digitales/static/media/logo_footer.c3f4927b.svg",
+    "static/media/logo_mini.svg": "/archivos-digitales/static/media/logo_mini.a857307c.svg",
+    "static/media/lupa.svg": "/archivos-digitales/static/media/lupa.6ff7b8e0.svg",
+    "static/media/mail.svg": "/archivos-digitales/static/media/mail.2af67e47.svg",
+    "static/media/marcos.png": "/archivos-digitales/static/media/marcos.9c5e8902.png",
+    "static/media/metodologia.png": "/archivos-digitales/static/media/metodologia.fcd773a5.png",
+    "static/media/tw.svg": "/archivos-digitales/static/media/tw.dc1517ea.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80a1d64e.js",
+    "static/js/2.db8b6c1f.chunk.js",
+    "static/css/main.5a1caa9e.chunk.css",
+    "static/js/main.a817a71a.chunk.js"
+  ]
+}
