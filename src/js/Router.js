@@ -9,7 +9,7 @@ import Metodologia from './Metodologia'
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/archivos-digitales">
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/about" component={About} />
