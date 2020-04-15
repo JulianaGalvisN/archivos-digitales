@@ -20,16 +20,14 @@ function App() {
           <div className="headline">
             <h1 className="title">Archivos</h1>
             <h1 className="title">digitales</h1>
-            <h6 className="title subtitle">para activistas de género</h6>
+            <h6 className="title subtitle">para activistas de mujeres y LGBT</h6>
           </div>
           <div className="intro text">
             <h2 className="title">¿Qué es?</h2>
             <div className="paragraph">
-              <p>Este manual se crea en el marco de un proyecto de investigación de maestría en Humanidades Digitales de la Universidad de Los Andes.
-              Consiste en brindar recursos sobre el archivo digital existente en Colombia y su posible uso por parte de activistas de género en Colombia.</p>
-              <p>Contiene un marco de referencia con los conceptos trabajados en el proyecto, un marco legal colombiano y un paso a paso de cómo
-              pedir información. A su vez da a conocer el archivo digital existente en Colombia, y la información contenida en ellos que posiblemente
-              sea útil para activistas de género.</p>
+              <p>Este proyecto es posible gracias a las luchas de las y los activistas de mujeres y LGBT, que día a día y durante toda la historia han luchado porque tengamos los derechos de los que hoy gozamos.</p>
+              <p>Es una herramienta abierta que indaga en el uso de los archivos digitales existentes en Colombia la forma en que estos pueden apoyar el trabajo de activistas de mujeres y LGBT en el país. </p>
+              <p>Esta herramienta contiene una lista de activistas de mujeres y LGBT en Colombia, una herramienta que permite explorar todos los archivos digitales existentes en Colombia, unos marcos de referencia sobre la legislación existente en Colombia y por último una metodología sobre cómo identificar información relevante en cada archivo digital.</p>
             </div>
           </div>
         </div>
@@ -51,13 +49,10 @@ function App() {
         <div className="text">
           <div className="title-container">
             <h2 className="title">El activismo</h2>
-            <h2 className="title">de género</h2>
+            <h2 className="title">de mujeres y LGBT</h2>
           </div>
           <p className="paragraph">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla- mcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-          <p className="paragraph">
-          Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feu giat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-          </p>
+          Se comprende como las acciones de individuos que carecen de influencia institucionalizada, que buscan romper con las construcciones ‘legitimadoras’ de las masculinidades y la heterosexualidad, y pretenden proponer cambios en el orden social existente.</p>
         </div>
         {/* Hasta aquí */}
       </div>

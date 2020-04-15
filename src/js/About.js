@@ -70,6 +70,15 @@ function About(props) {
               <p>En este sentido, la lectura de los archivos con enfoque de género, permite dar legitimidad a este concepto en relación con la memoria y el patrimonio, además incluye a quienes no han tenido voz a lo largo de la historia, y así tomarlos en cuenta como protagonistas de procesos sociales.</p>
             </div>
           </div>
+
+          <div className="headline-left">
+              <h2 className="title">Agradecimientos</h2>
+              <div className="paragraph">
+                <p> Este proyecto se realiza gracias a las luchas de las y los activistas de mujeres y LGBT, que día a día y durante toda la historia han luchado porque tengamos los derechos de los que hoy gozamos. </p>
+                <p> Agradecimientos especiales a Mariana Villamizar, David Daza, Maria José Afanador y las activistas entrevistadas para este proyecto.</p>
+            </div>
+          </div>
+
         </div>
 
         <Footer/>
