@@ -5,8 +5,8 @@
 
 .App .home {
   display: flex;
-  margin-top: 30px;
   flex-direction: column;
+  padding-top: 30px;
   align-items: center;
 }
 

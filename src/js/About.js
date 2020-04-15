@@ -1,14 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
-import Navbar from './Navbar';
 import '../css/About.css';
 import este_manual from '../images/este-manual.png';
 
 function About(props) {
   return (
     <div className="About">
-      <Navbar />
-
       <Banner
         title1="Este"
         title2="manual"

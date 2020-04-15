@@ -1,14 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
-import Navbar from './Navbar';
 import '../css/activismo.css';
 import activismo from '../images/activismo.png';
 
 function Activismo(props) {
   return (
     <div className="activismo">
-      <Navbar />
-
       <Banner
         title1="Activismo"
         bgImage={activismo}

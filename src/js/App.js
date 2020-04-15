@@ -1,6 +1,5 @@
 import React from 'react';
 import Banner from './Banner';
-import Navbar from './Navbar';
 import '../css/reset.css';
 import '../css/App.css';
 import linea_tiempo from '../images/linea_tiempo.png';
@@ -11,7 +10,6 @@ import cano from '../images/cano.png';
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <div className="home">
         <img className="image" src={cano} alt="Imagen de María Cano" />
         <div className="headline-container">

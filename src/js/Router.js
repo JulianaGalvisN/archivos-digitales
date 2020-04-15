@@ -6,12 +6,14 @@ import Archivos from './Archivos';
 import Marcos from './Marcos';
 import Activismo from './Activismo';
 import Metodologia from './Metodologia';
+import Navbar from './Navbar';
 import Footer from './Footer';
 
 function Router() {
   return (
-    <>
-      <BrowserRouter basename="/archivos-digitales">
+    <BrowserRouter basename="/archivos-digitales">
+      <div>
+        <Navbar />
         <Switch>
           <Route exact path="/" component={App} />
           <Route path="/about" component={About} />
@@ -20,9 +22,9 @@ function Router() {
           <Route path="/activismo" component={Activismo} />
           <Route path="/metodologia" component={Metodologia} />
         </Switch>
-      </BrowserRouter>
-      <Footer />
-    </>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Banner from './Banner';
 import '../css/marcos.css';
 import marcos from '../images/marcos.png';
@@ -7,8 +6,6 @@ import marcos from '../images/marcos.png';
 function Marcos(props) {
   return (
     <div className="marcos">
-      <Navbar />
-
       <Banner
         title1="Marcos de"
         title2="referencia"

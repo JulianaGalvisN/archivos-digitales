@@ -1,14 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
-import Navbar from './Navbar';
 import '../css/Metodologia.css';
 import metodologia from '../images/metodologia.png';
 
 function Metodologia(props) {
   return (
     <div className="Metodologia">
-      <Navbar />
-
       <Banner
         title1="Metodología"
         bgImage={metodologia}

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar';
 import Banner from './Banner';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
@@ -82,8 +81,6 @@ class Archivos extends React.Component {
   render() {
     return (
       <div className="archivos">
-        <Navbar />
-
         <Banner
           title1="Los"
           title2="archivos"
