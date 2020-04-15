@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Banner from './Banner';
-import Footer from './Footer';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
 import '../css/Archivos.css';
@@ -140,7 +139,6 @@ class Archivos extends React.Component {
             )}
           </div>
         </div>
-        <Footer />
       </div>
     );
   }
