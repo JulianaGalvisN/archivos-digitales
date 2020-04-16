@@ -10,4 +10,18 @@
   width: 50%;
   margin-left: 50px;
   margin-top: 30px;
-} 
+  margin-bottom: 50px;
+}
+
+.activismo .link{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232123;
+  color: #ff3e71;
+  padding: 8px;
+  font-family: 'Share Tech Mono', monospace;
+  width: initial;
+  letter-spacing: -0.03em;
+  font-size: 1.4em;
+  margin-top: 20px;
+}

@@ -29,8 +29,10 @@ function Footer(props) {
       <div className="item credits">
         <p>
           Este sitio fue realizado por Juliana Galvis en el marco de la maestría
-          en Humanidades Digitales en la Universidad de los Andes. Diseño web
-          por Mariana Villamizar.
+          en Humanidades Digitales en la Universidad de los Andes. El diseño web
+          Fue realizado por Mariana Villamizar. En montaje web fue realizado en
+          colaboración con Mariana Villamizar y David Daza, a quienes agradezco
+          infinitamente por hacer esto posible.
         </p>
       </div>
       <div className="item cc">

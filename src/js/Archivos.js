@@ -113,6 +113,30 @@ class Archivos extends React.Component {
           margin="Banner margin"
         />
 
+        <div className="headline-left">
+          <div className="paragraph">
+            <p>
+            En esta sección puedes encontrar los archivos digitales existentes
+            en Colombia. Es posible filtrar por tema o utilizar la barra
+            buscadora.
+            </p>
+            <p>
+            Al dar click al botón "explorar" es posible conocer cómo acceder a
+            la información en cada uno.
+            </p>
+            <p>
+            Si deseas cambiar, adicionar o quitar información de esta sección
+            por favor comunícate al correo julianagalvisn@gmail.com
+            </p>
+            <p>
+            Para acceder a la base de datos completa, puedes dar click
+            </p>
+            <a href="https://docs.google.com/spreadsheets/d/1rycxptkQFpQQaPsWwVcSqAvqu7LqnqA85XtT3RMPcGI/edit?usp=sharing" className="link">
+            Aquí
+            </a>
+          </div>
+          </div>
+
         <div className="filtros">
           {this.state.tags && (
             <Dropdown

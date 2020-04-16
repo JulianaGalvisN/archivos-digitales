@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import { Link } from 'react-router-dom';
 import marcos from '../images/marcos.png';
 import '../css/marcos.css';
 
@@ -37,19 +38,19 @@ function Marcos(props) {
         <h3 className="subtitle">Activismo de género</h3>
         <div className="paragraph">
           <p>
-            El activismo de género se comprende como las acciones de individuos
-            que carecen de influencia institucionalizada, que buscan romper con
-            las construcciones ‘legitimadoras’ de las masculinidades y la
-            heterosexualidad, y pretenden proponer cambios en el orden social
-            existente.
+            El activismo de mujeres y LGBT se comprende como las acciones de
+            individuos que carecen de influencia institucionalizada, que buscan
+            romper con las construcciones ‘legitimadoras’ de las masculinidades
+            y la heterosexualidad, y pretenden proponer cambios en el orden
+            social existente.
           </p>
           <p>
-            Lynda T Johnston (2016) se refiere al activismo de género como
-            aquellos espacios y lugares de igualdad donde lo personal es
-            político, y Briscoe y Gupta (2016) lo definen como aquellas
-            instancias donde los grupos e individuos carecen de acceso total a
-            canales de influencia institucionalizados, y por lo tanto participan
-            de acciones colectivas para remediar el problema social percibido o
+            Lynda T Johnston (2016) se refiere al activismo como aquellos
+            espacios y lugares de igualdad donde lo personal es político, y
+            Briscoe y Gupta (2016) lo definen como aquellas instancias donde
+            los grupos e individuos carecen de acceso total a canales de
+            influencia institucionalizados, y por lo tanto participan de
+            acciones colectivas para remediar el problema social percibido o
             para promover cambios en el orden social existente.
           </p>
           <p>
@@ -65,61 +66,57 @@ function Marcos(props) {
       <div className="headline-container">
         <div className="headline">
           <h2 className="title">Marco legal</h2>
-          <h3 className="subtitle">Ley 954 del 2000</h3>
+          <h3 className="subtitle">
+          <a href="https://mintic.gov.co/portal/604/articles-15049_documento.pdf" className="subtitle">
+          Ley 954 del 2000
+          </a>
+          </h3>
           <div className="paragraph">
             <p>
-              Se define el archivo como el conjunto de documentos acumulados en
-              un proceso natural por una persona o entidad pública o privada,
-              conservados respetando un orden de servir como testimonio e
-              información histórica a la persona o institución que lo crea.
-              También se puede entender como la institución misma que está al
-              servicio de la gestión administrativa de dicha información.
-            </p>
-            <p>
-              Dicha Ley establece unos principios básicos con los cuales se debe
-              regir la función archivística: El objetivo de los archivos es
-              disponer de una documentación organizada de tal forma que la
-              información institucional sea recuperable, por lo tanto tiene como
-              fines facilitar la participación de la comunidad y el control de
-              la ciudadanía en las decisiones que los afecten; la importancia de
-              los archivos consiste en una administración y cultura porque los
-              documentos son imprescindibles para la toma de decisiones; los
-              archivos constituyen una herramienta indispensable para la gestión
-              administrativa, económica, política y cultural; y el Archivo
-              General de la Nación es la entidad encargada de orientar y
-              coordinar la función archivística.
-            </p>
-            <p>
-              Establece además el Sistema Nacional de Archivos que son las
-              instituciones de archivos articuladas entre sí que posibilitan la
-              homogeneización y normalización de los procesos archivísticos
+              Dicha Ley establece unos principios básicos con los cuales se
+              debe regir la función archivística: El objetivo de los archivos
+              es disponer de una documentación organizada de tal forma que la
+              información institucional sea recuperable, por lo tanto tiene
+              como fines facilitar la participación de la comunidad y el
+              control de la ciudadanía en las decisiones que los afecten. La
+              importancia de los archivos consiste en una administración y
+              cultura porque los documentos son imprescindibles para la toma de
+              decisiones. Los archivos constituyen una herramienta
+              indispensable para la gestión administrativa, económica, política
+              y cultural. Y el Archivo General de la Nación es la entidad
+              encargada de orientar y coordinar la función archivística.
             </p>
           </div>
-          <h3 className="subtitle">Ley 1712 de 2014</h3>
+          <h3 className="subtitle">
+          <a href="https://mintic.gov.co/portal/604/articles-7147_documento.pdf" className="subtitle">
+          Ley 1712 de 2014
+          </a>
+          </h3>
           <div className="paragraph">
             <p>
               Esta Ley hace referencia al derecho de acceso a la información
               pública, y los procesos de publicidad de la misma en Colombia.
               Parte de una serie de principios de transparencia y acceso a la
-              información, tales como la máxima publicidad de la misma, el
+              información, tales como: la máxima publicidad de la misma, el
               principio de transparencia (los sujetos obligados deben
               proporcionarla y facilitarla en los términos más amplios
               posibles), principio de buena fé (los sujetos obligados deben
-              cumplir con sus deberes de manera honesta, leal, libre de dolo y
-              culpa), principio de facilitación, principio de no discriminación,
-              de gratuidad, de celeridad, de eficacia, de calidad de la
-              información, de divulgación proactiva de la información, y de
-              responsabilidad en el uso de la información.
+              cumplir con sus deberes de manera honesta, leal, libre de
+              dolo y culpa), principio de facilitación, principio de no
+              discriminación, de gratuidad, de celeridad, de eficacia, de
+              calidad de la información, de divulgación proactiva de la
+              información, y de responsabilidad en el uso de la información.
             </p>
           </div>
         </div>
       </div>
 
       <div className="headline-left">
-        <h2 className="title">Cómo pedir información</h2>
+        <h2 className="title">Cómo acceder a información</h2>
+        <h2 className="title">pública</h2>
         <div className="paragraph">
           <p>
-            De acuerdo a la ley 1712 de 2014, o ley de Transparencia y Acceso a
+            De acuerdo a la Ley 1712 de 2014, o ley de Transparencia y Acceso a
             la Información Pública, el acceso a la información es un derecho
             fundamental.
           </p>
@@ -137,16 +134,9 @@ function Marcos(props) {
             rápido.
           </p>
           <p>
-            En caso de que la respuesta a la solicitud de información se realice
-            de manera incompleta, no responden dentro de los 20 días hábiles,
-            cobran por la misma o dicen que no están obligados a entregarla (a
-            menos de que sea información cuya restricción sea legítima dentro de
-            la Ley 1712 de 2014), es posible realizar una acción de tutela.
-          </p>
-          <p>
-            Un recurso para el acceso a la información pública puede ser
+            Un recurso amplio para el acceso a la información pública puede ser
             consultado
-            [aquí](https://flip.org.co/index.php/es/publicaciones/manuales/item/1660-manual-de-acceso-la-informacion-publica).
+            <a href="https://flip.org.co/index.php/es/publicaciones/manuales/item/1660-manual-de-acceso-la-informacion-publica"> aquí</a>.
           </p>
         </div>
       </div>

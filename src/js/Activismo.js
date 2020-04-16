@@ -8,6 +8,7 @@ function Activismo(props) {
     <div className="activismo">
       <Banner
         title1="Activismo"
+        title2="de mujeres y LGBT"
         bgImage={activismo}
         height="350px"
         margin="Banner margin"
@@ -15,11 +16,24 @@ function Activismo(props) {
 
       <div className="paragraph">
         <p>
-          Para conocer las activistas de género existentes en Colombia puedes
-          explorar la siguiente base de datos. Y para conocer las causas que se
-          han defendido en torno al género en el país, explora la línea de
-          tiempo.
+          Para conocer un poco sobre el activismo de mujeres y LGBT en
+          Colombia, te invitamos a conocer la línea de tiempo de hechos
+          históricos importantes en Colombia.
         </p>
+        <p>
+          Si quieres explorar una lista de activistas de mujeres y LGBT, te
+          invitamos a filtrar por tema o utilizar la barra buscadora.
+        </p>
+        <p>
+        Si deseas cambiar, adicionar o quitar información de esta sección
+        por favor comunícate al correo julianagalvisn@gmail.com
+        </p>
+        <p>
+        Para acceder a la base de datos completa, puedes dar click
+        </p>
+        <a href="https://docs.google.com/spreadsheets/d/1rycxptkQFpQQaPsWwVcSqAvqu7LqnqA85XtT3RMPcGI/edit?usp=sharing" className="link">
+        Aquí
+        </a>
       </div>
 
       <iframe
