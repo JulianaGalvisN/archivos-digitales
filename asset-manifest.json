@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/archivos-digitales/static/css/main.fba171d3.chunk.css",
-    "main.js": "/archivos-digitales/static/js/main.bc6f143e.chunk.js",
-    "main.js.map": "/archivos-digitales/static/js/main.bc6f143e.chunk.js.map",
+    "main.css": "/archivos-digitales/static/css/main.7edee3f9.chunk.css",
+    "main.js": "/archivos-digitales/static/js/main.08c888da.chunk.js",
+    "main.js.map": "/archivos-digitales/static/js/main.08c888da.chunk.js.map",
     "runtime-main.js": "/archivos-digitales/static/js/runtime-main.80a1d64e.js",
     "runtime-main.js.map": "/archivos-digitales/static/js/runtime-main.80a1d64e.js.map",
-    "static/js/2.b5d19136.chunk.js": "/archivos-digitales/static/js/2.b5d19136.chunk.js",
-    "static/js/2.b5d19136.chunk.js.map": "/archivos-digitales/static/js/2.b5d19136.chunk.js.map",
+    "static/js/2.9c5a05a8.chunk.js": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js",
+    "static/js/2.9c5a05a8.chunk.js.map": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.map",
     "index.html": "/archivos-digitales/index.html",
-    "precache-manifest.5d734719742386eb56341d985905a03b.js": "/archivos-digitales/precache-manifest.5d734719742386eb56341d985905a03b.js",
+    "precache-manifest.e7bf185433faf8f6f0a4f08171570067.js": "/archivos-digitales/precache-manifest.e7bf185433faf8f6f0a4f08171570067.js",
     "service-worker.js": "/archivos-digitales/service-worker.js",
-    "static/css/main.fba171d3.chunk.css.map": "/archivos-digitales/static/css/main.fba171d3.chunk.css.map",
-    "static/js/2.b5d19136.chunk.js.LICENSE.txt": "/archivos-digitales/static/js/2.b5d19136.chunk.js.LICENSE.txt",
+    "static/css/main.7edee3f9.chunk.css.map": "/archivos-digitales/static/css/main.7edee3f9.chunk.css.map",
+    "static/js/2.9c5a05a8.chunk.js.LICENSE.txt": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.LICENSE.txt",
     "static/media/activismo-home.png": "/archivos-digitales/static/media/activismo-home.2bf0435f.png",
     "static/media/activismo.png": "/archivos-digitales/static/media/activismo.ec9769f3.png",
     "static/media/archivo.png": "/archivos-digitales/static/media/archivo.4ff35181.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.80a1d64e.js",
-    "static/js/2.b5d19136.chunk.js",
-    "static/css/main.fba171d3.chunk.css",
-    "static/js/main.bc6f143e.chunk.js"
+    "static/js/2.9c5a05a8.chunk.js",
+    "static/css/main.7edee3f9.chunk.css",
+    "static/js/main.08c888da.chunk.js"
   ]
 }
