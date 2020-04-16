@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from './Banner';
 import Dropdown from './Dropdown';
 import Archivo from './Archivo';
+import Popup from './Popup';
 import activismo from '../images/activismo.png';
 import lupa from '../images/lupa.svg';
 import '../css/activismo.css';
@@ -22,7 +23,7 @@ class Activismo extends React.Component {
       activists: null,
       query: '',
       visiblePopup: false,
-      selectedArchive: null,
+      selectedActivist: null,
     };
   }
 
@@ -76,17 +77,28 @@ class Activismo extends React.Component {
     }));
   };
 
-  showArchivePopup = (archive) => {
-    this.setState(() => ({ visiblePopup: true, selectedArchive: archive }));
+  showArchivePopup = (activist) => {
+    this.setState(() => ({ visiblePopup: true, selectedActivist: activist }));
   };
 
   closePopup = () => {
-    this.setState(() => ({ visiblePopup: false, selectedArchive: null }));
+    this.setState(() => ({ visiblePopup: false, selectedActivist: null }));
   };
 
   render() {
     return (
       <div className="activismo">
+        {this.state.visiblePopup && (
+          <Popup>
+            <h2>{this.state.selectedActivist.nombre}</h2>
+            <p>
+              {this.state.selectedActivist.lugar}
+            </p>
+            <h3>Descripción</h3>
+            <p>{this.state.selectedActivist.descripcion}</p>
+            <button onClick={this.closePopup}>Cerrar</button>
+          </Popup>
+        )}
         <Banner
           title1="Activismo"
           title2="de mujeres y LGBT"
