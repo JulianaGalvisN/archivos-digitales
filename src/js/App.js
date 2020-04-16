@@ -36,7 +36,7 @@ function App() {
               </p>
               <p>
                 Esta herramienta contiene una lista de activistas de mujeres y
-                LGBT en Colombia, una herramienta que permite explorar todos los
+                LGBT en Colombia, una lista de todos los
                 archivos digitales existentes en Colombia, unos marcos de
                 referencia sobre la legislación existente en Colombia y por
                 último una metodología sobre cómo identificar información

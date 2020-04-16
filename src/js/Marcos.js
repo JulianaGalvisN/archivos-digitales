@@ -19,62 +19,19 @@ function Marcos(props) {
         <h3 className="subtitle">Archivo digital</h3>
         <div className="paragraph">
           <p>
-            El archivo digital es entendido como todo el compilado de documentos
-            creados o recibidos por alguna persona u organización que forman la
-            realidad histórica y patrimonial de una sociedad, o simplemente como
-            asuntos de gran valor relacionados con alguna persona u
-            organización. Es el resultado de una serie de actos de unificación,
-            identificación y clasificación de información, generador de toda una
-            realidad social, es decir, cuenta su historia, los sucesos que la
-            formaron, sus tradiciones patrimoniales, y en general todos los
-            asuntos que la llevaron a ser lo que es en el presente. Sin embargo
-            cabe la aclaración de que esta acción no es en ningún momento una
-            ciencia exacta, hay toda una serie de personajes involucrados en
-            ella que no debemos perder de vista porque siempre hay intereses en
-            la información que se consigna en el mismo.
-          </p>
-          <p>
-            Los registros digitales son la transformación de los archivos
-            físicos tradicionales en elementos propios de accesibilidad y
-            conservación. Ya no se habla entonces de objetos físicos a los que
-            se busca y se cuida, sino a información que se puede manipular tal
-            que no tenga el deterioro regular de un documento físico, posibilita
-            la creación de copias, un solo ejemplar puede ser visto por muchas
-            personas alrededor del mundo de manera simultánea, permite que la
-            información sea durable en el tiempo, entre otras.
-          </p>
-        </div>
-        <h3 className="subtitle">Género</h3>
-        <div className="paragraph">
-          <p>
-            Se puede partir de sus definiciones formales como la de la RAE, que
-            lo describe como el “Grupo al que pertenecen los seres humanos de
-            cada sexo, entendido este desde el punto de vista sociocultural en
-            lugar de exclusivamente biológico”. También puede ser, tal como lo
-            describió Gayle Rubin en 1986 como las disposiciones por las que una
-            sociedad transforma la sexualidad biológica en asuntos de
-            satisfacción de la actividad humana. Este sistema es expuesto como
-            un sexo que se relaciona con la biología y un género que se
-            relaciona con la cultura, es decir, el sexo que es biológicamente
-            determinado y el género que es una construcción social.
-          </p>
-          <p>
-            El género tal como lo afirma Joan Scott (1996) es principalmente una
-            constitución de relaciones basadas en asuntos corporales y de
-            trascendencia biológica, pero también es una forma de constitución
-            de poder, que es determinante en las relaciones sociales y la forma
-            en que los individuos se desenvuelven en su sociedad.
-          </p>
-          <p>
-            Por lo tanto lo que es socialmente constituido como mujer u hombre
-            es todo un producto del lenguaje usado para generar atributos
-            específicos a un género, y que no siempre se constituye de la manera
-            correcta, y en los contextos históricos correctos, porque el género
-            por sí mismo confluye relaciones raciales, de clase, sexuales y
-            regionales. Esta cuestión no sólo se refiere al estudio de la
-            dicotomía mujer/hombre en sus relaciones de poder, sino también de
-            la interseccionalidad de estas relaciones en todos los aspectos de
-            la vida de las sociedades.
+            El archivo digital es entendido como todo el compilado de
+            documentos creados o recibidos por alguna persona u organización
+            que forman la realidad histórica, social y patrimonial de una
+            sociedad, o simplemente como asuntos de gran valor para un conjunto
+            social. Es el resultado de una serie de actos de unificación,
+            identificación y clasificación de información de la realidad, es
+            decir, cuenta su historia, los sucesos que la formaron, sus
+            tradiciones patrimoniales, y en general todos los asuntos que la
+            llevaron a ser lo que es en el presente. Sin embargo cabe la
+            aclaración de que esta acción no es en ningún momento una ciencia
+            exacta, hay toda una serie de personajes involucrados en ella que
+            no debemos perder de vista porque siempre hay intereses en la
+            información que se consigna allí.
           </p>
         </div>
         <h3 className="subtitle">Activismo de género</h3>

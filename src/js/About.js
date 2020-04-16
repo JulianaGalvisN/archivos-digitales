@@ -25,11 +25,12 @@ function About(props) {
             Colombia.
           </p>
           <p>
-            Contiene un marco de referencia con los conceptos trabajados en el
-            proyecto, un marco legal colombiano y un paso a paso de cómo pedir
-            información. A su vez da a conocer el archivo digital existente en
-            Colombia, y la información contenida en ellos que posiblemente sea
-            útil para activistas de género.
+          Contiene una lista de activistas de mujeres y
+          LGBT en Colombia, una lista de todos los
+          archivos digitales existentes en Colombia, unos marcos de
+          referencia sobre la legislación existente en Colombia y por
+          último una metodología sobre cómo identificar información
+          relevante en cada archivo digital.
           </p>
         </div>
       </div>
@@ -47,12 +48,13 @@ function About(props) {
             <p>
               Esto puesto que el archivo es un potencial generador de espacios
               públicos y abiertos al acceso a la información, pero ha sido
-              excluyente de ciertas identidades no tomadas en cuenta en la
-              historia de las sociedades, como lo son las mujeres y LGBT. Es por
-              eso que para que dichas identidades tengan una voz y puedan luchar
-              por sus derechos, el activismo en temas de género debe preservar
-              su patrimonio a través de la entrada en espacios de recolección y
-              divulgación de información como lo son los archivos digitales.
+              excluyente de ciertas identidades en la historia de las
+              sociedades, como lo son las mujeres y LGBT. Es por eso que para
+              que dichas identidades tengan una voz y puedan luchar por sus
+              derechos, el activismo en temas de género tiene la posibilidad de
+              preservar su patrimonio a través de la entrada en espacios de
+              recolección y divulgación de información como lo son los archivos
+              digitales.
             </p>
             <p>
               Es por eso que el llamado de esta investigación con énfasis en
@@ -64,11 +66,6 @@ function About(props) {
               por la inclusión, con la producción histórica y patrimonial
               ofrecida por los archivos digitales.
             </p>
-            <p>
-              A su vez, busca contribuir a la lucha por el acceso a la
-              información pública que hace parte fundamental de la activa
-              participación de la ciudadanía en diversos temas públicos
-            </p>
           </div>
         </div>
       </div>
@@ -79,12 +76,13 @@ function About(props) {
         <div className="paragraph">
           <p>
             Cuando se habla de archivos, usualmente se relacionan con la forma
-            tradicional de recopilar información relevante, que consiste en una
-            sola copia del documento (no digital) reunida en repositorios que
-            contienen datos seleccionados para responder a diversos tipos de
-            intereses. Pero ahora, es necesario posicionarse en la nueva era,
-            que implica nuevas formas de ver el archivo y de relacionarse con él
-            a través de los procesos de la digitalización.
+             tradicional de recopilar información relevante, que consiste en
+             una sola copia del documento (no digital) reunida en repositorios
+             que contienen datos seleccionados para responder a diversos tipos
+             de intereses. Pero ahora, es necesario posicionarse en la nueva
+             era, que implica nuevas formas de ver los documentos y de
+             relacionarse con ellos a través de los procesos de la
+             digitalización.
           </p>
           <p>
             Podríamos caracterizar los archivos digitales de acuerdo con
@@ -95,7 +93,7 @@ function About(props) {
             cantidad de tiempo, impidiendo el deterioro que normalmente tendría.
           </p>
           <p>
-            - Se puede acceder a los distintos recursos del archivo desde
+            - Se puede acceder a los distintos recursos desde
             cualquier dispositivo tecnológico conectado a través de internet.
           </p>
           <p>
@@ -108,7 +106,6 @@ function About(props) {
             uno de los documentos allí consignados, y facilita la búsqueda de
             información a partir de catálogos en línea y sus buscadores.
           </p>
-          <p>- Tienen poca necesidad de crear una infraestructura física. </p>
           <p>- Permite compartir información de manera fácil y rápida. </p>
           <p>
             - Un sólo ejemplar del archivo puede ser visto por muchas personas
@@ -129,55 +126,41 @@ function About(props) {
           <h2 className="title">Archivo con enfoque de género</h2>
           <div className="paragraph">
             <p>
-              Se toma en consideración el archivo con enfoque de género porque
-              permite preservar el patrimonio de las mujeres, LGBT, y sus
-              movimientos, para contribuir a la lucha histórica y constante
-              emancipación de estas comunidades vulneradas. Sara de Jong y
-              Saskia Wieringa (2013) exploran la historia con enfoque de género
-              cuando hablan de la segunda ola del movimiento feminista, que
-              manifestó críticas a la ciencia masculina relacionada con la
-              exclusión de las mujeres en las prácticas científicas y sociales,
-              así como en la historia y el archivismo.
+              El archivo con enfoque de género permite preservar el patrimonio
+              de las mujeres, LGBT, y sus movimientos, para contribuir a la
+              lucha histórica y constante emancipación de estas poblaciones
+              vulneradas.
             </p>
             <p>
               Los avances para la consideración de un archivo con enfoque de
-              género, se comenzaron a dar cuando las feministas consideraron las
-              diferencias que había entre los espacios ocupados por mujeres y
-              hombres en las esferas públicas y privadas, mientras las mujeres
+              género, se comenzaron a dar cuando las feministas consideraron
+              las diferencias que había entre los espacios ocupados por mujeres
+              y hombres en las esferas públicas y privadas. Mientras las mujeres
               eran llevadas a puntos de relacionamiento social privado (el
               hogar, la familia), el hombre era tomado en cuenta como un ente
-              público (las calles, la política), y por lo tanto, era el objeto
-              de estudio de los archivos históricos. Se hablaba del hombre
-              heterosexual porque era el que creaba y producía la historia y el
-              patrimonio de las sociedades (Jong y Wieringa, 2013, p. 18).
+              público (las calles, la política), y por lo tanto, era el
+              objeto de estudio de los archivos históricos. Se hablaba del
+              hombre heterosexual porque era el que creaba y producía la
+              historia y el patrimonio de las sociedades.
             </p>
             <p>
-              Joan Scott da a entender que las mujeres han sido excluidas de los
-              registros públicos y que además, cuando se nombran sólo se incluye
-              su trabajo político y de caridad a menudo vinculado al bienestar
-              de los niños, los pobres, los discapacitados, la educación, los
-              ancianos y los grupos marginados, y no dentro de su labor política
-              como activistas o defensoras de los derechos de las mujeres. Por
-              eso las mujeres han sido en su mayoría excluidas de los archivos
-              públicos (a menos de que después de su fallecimiento se publique
-              su archivo, o que su labor esté a nombre de un hombre), porque no
-              se les ha tomado en cuenta como actores determinantes en la
-              historia y construcción de conocimiento de las sociedades.
+              Las mujeres han sido excluidas de los registros públicos y además,
+              cuando se nombran sólo se incluye su trabajo político y de caridad
+              a menudo vinculado al bienestar de la niñez, las personas pobres,
+              discapacitadas, ancianas, marginadas y sin educación, y no dentro
+              de su labor política como activistas o defensoras de los derechos
+              de las mujeres. Las personas LGBT ni siquiera son contadas en los
+              registros de información de acuerdo a su identidad de género u
+              orientación sexual.
             </p>
             <p>
-              Por eso, que el archivismo con enfoque de género se ha puesto a la
-              tarea de construir nuevas realidades y espacios de discursividad
-              en temas de información, esto es considerar la biblioteca y el
-              archivo como espacios de creación de conocimiento, más allá de
-              temas de recolección pasiva, sino también relacionarse y construir
-              conocimiento con cada vez más justicia social.
-            </p>
-            <p>
-              En este sentido, la lectura de los archivos con enfoque de género,
-              permite dar legitimidad a este concepto en relación con la memoria
-              y el patrimonio, además incluye a quienes no han tenido voz a lo
-              largo de la historia, y así tomarlos en cuenta como protagonistas
-              de procesos sociales.
+              Es por eso que el archivismo con enfoque de género se ha puesto a
+              la tarea de construir nuevas realidades y espacios de
+              discursividad en los registros información, esto es considerar la
+              biblioteca y el archivo como espacios de creación de
+              conocimiento, más allá de temas de recolección pasiva, sino
+              también para relacionarse y construir conocimiento con cada vez
+              más justicia social.
             </p>
           </div>
         </div>
