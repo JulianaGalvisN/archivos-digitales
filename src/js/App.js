@@ -1,11 +1,11 @@
 import React from 'react';
 import Banner from './Banner';
-import '../css/reset.css';
-import '../css/App.css';
 import linea_tiempo from '../images/linea_tiempo.png';
 import archivo from '../images/archivo.png';
 import activismo_img from '../images/activismo-home.png';
 import cano from '../images/cano.png';
+import '../css/reset.css';
+import '../css/App.css';
 
 function App() {
   return (

@@ -1,0 +1,16 @@
+.popup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+}
+
+.popup-content {
+  margin: auto;
+  max-width: 80%;
+  background-color: #ffffff;
+  padding: 30px;
+}

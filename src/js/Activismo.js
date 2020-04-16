@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
-import '../css/activismo.css';
 import activismo from '../images/activismo.png';
+import '../css/activismo.css';
 
 function Activismo(props) {
   return (

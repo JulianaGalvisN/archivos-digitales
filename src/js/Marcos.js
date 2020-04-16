@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
-import '../css/marcos.css';
 import marcos from '../images/marcos.png';
+import '../css/marcos.css';
 
 function Marcos(props) {
   return (
