@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
-import '../css/About.css';
 import este_manual from '../images/este-manual.png';
+import '../css/About.css';
 
 function About(props) {
   return (

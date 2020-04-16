@@ -2,9 +2,10 @@ import React from 'react';
 import Banner from './Banner';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
-import '../css/Archivos.css';
+import Popup from './Popup';
 import archivo from '../images/banner-archivos.png';
 import lupa from '../images/lupa.svg';
+import '../css/Archivos.css';
 
 const DB_URL =
   'https://script.googleusercontent.com/a/macros/randommonkey.io/echo?user_content_key=r_LlTdFIjSox2kwx0c-SHFJl8b_USSoUsov4azu48CN4hTM-GRYyNXHE84bYyEJ1FzBbf6a0g36u66YQmLrTN0ij7ra88Ui0m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_nRPgeZU6HP_F5M49av5jvMSEjbmACM01ubd_SaoYEJGgJfG4ynUykGlTovx4MdMsA_WKI32lApbywmIdVFRtWnWm9nNiWBhNB67k26AQb74G48i-EPPuBtz9Jw9Md8uu&lib=MGUgqta0UWIajlw18Y2HXqcPNf_ntfMqG';
@@ -25,6 +26,8 @@ class Archivos extends React.Component {
       },
       archives: null,
       query: '',
+      visiblePopup: false,
+      selectedArchive: null,
     };
   }
 
@@ -36,9 +39,7 @@ class Archivos extends React.Component {
       data,
       tags: data['diccionario-tags'],
       archives: data.archivo_existente.filter((archive) => {
-        const matches = archive.nombre
-          .toLowerCase()
-          .includes('');
+        const matches = archive.nombre.toLowerCase().includes('');
         const hasTag = archive.tags.includes(state.tag.uid);
         return matches && hasTag;
       }),
@@ -77,9 +78,33 @@ class Archivos extends React.Component {
     }));
   };
 
+  showArchivePopup = (archive) => {
+    this.setState(() => ({ visiblePopup: true, selectedArchive: archive }));
+  };
+
+  closePopup = () => {
+    this.setState(() => ({ visiblePopup: false, selectedArchive: null }));
+  };
+
   render() {
     return (
       <div className="archivos">
+        {this.state.visiblePopup && (
+          <Popup>
+            <h2>{this.state.selectedArchive.nombre}</h2>
+            <p>
+              {this.state.selectedArchive['autor-organizacion']}
+              {' - '}
+              {this.state.selectedArchive.lugar}
+            </p>
+            <h3>Descripción</h3>
+            <p>{this.state.selectedArchive.descripcion}</p>
+            <h3>¿Cómo acceder a la información?</h3>
+            {/* Will this be markdown formatted text? */}
+            <p>{this.state.selectedArchive['como-acceder-informacion']}</p>
+            <button onClick={this.closePopup}>Cerrar</button>
+          </Popup>
+        )}
         <Banner
           title1="Los"
           title2="archivos"
@@ -125,8 +150,8 @@ class Archivos extends React.Component {
                     title={archive.nombre}
                     author={archive['autor-organizacion']}
                     description={archive.descripcion}
-                    link={archive.url}
                     key={archive.uid}
+                    showArchivePopup={() => this.showArchivePopup(archive)}
                   />
                 );
               })

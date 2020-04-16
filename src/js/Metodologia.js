@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
-import '../css/Metodologia.css';
 import metodologia from '../images/metodologia.png';
+import '../css/Metodologia.css';
 
 function Metodologia(props) {
   return (
