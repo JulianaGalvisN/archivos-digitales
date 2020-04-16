@@ -35,9 +35,12 @@ class Archivos extends React.Component {
     // Esto es de React
     const response = await fetch(DB_URL);
     const { data } = await response.json();
+    const tags = data['diccionario-tags'].sort((a, b) =>
+      a.nombre.localeCompare(b.nombre)
+    );
     this.setState((state) => ({
       data,
-      tags: data['diccionario-tags'],
+      tags,
       archives: data.archivo_existente.filter((archive) => {
         const matches = archive.nombre.toLowerCase().includes('');
         const hasTag = archive.tags.includes(state.tag.uid);
@@ -116,26 +119,27 @@ class Archivos extends React.Component {
         <div className="headline-left">
           <div className="paragraph">
             <p>
-            En esta sección puedes encontrar los archivos digitales existentes
-            en Colombia. Es posible filtrar por tema o utilizar la barra
-            buscadora.
+              En esta sección puedes encontrar los archivos digitales existentes
+              en Colombia. Es posible filtrar por tema o utilizar la barra
+              buscadora.
             </p>
             <p>
-            Al dar click al botón "explorar" es posible conocer cómo acceder a
-            la información en cada uno.
+              Al dar click al botón "explorar" es posible conocer cómo acceder a
+              la información en cada uno.
             </p>
             <p>
-            Si deseas cambiar, adicionar o quitar información de esta sección
-            por favor comunícate al correo julianagalvisn@gmail.com
+              Si deseas cambiar, adicionar o quitar información de esta sección
+              por favor comunícate al correo julianagalvisn@gmail.com
             </p>
-            <p>
-            Para acceder a la base de datos completa, puedes dar click
-            </p>
-            <a href="https://docs.google.com/spreadsheets/d/1rycxptkQFpQQaPsWwVcSqAvqu7LqnqA85XtT3RMPcGI/edit?usp=sharing" className="link">
-            Aquí
+            <p>Para acceder a la base de datos completa, puedes dar click</p>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1rycxptkQFpQQaPsWwVcSqAvqu7LqnqA85XtT3RMPcGI/edit?usp=sharing"
+              className="link"
+            >
+              Aquí
             </a>
           </div>
-          </div>
+        </div>
 
         <div className="filtros">
           {this.state.tags && (
