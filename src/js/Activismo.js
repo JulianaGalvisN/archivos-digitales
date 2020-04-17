@@ -100,6 +100,8 @@ class Activismo extends React.Component {
             <p>{this.state.selectedActivist.facebook}</p>
             <p>{this.state.selectedActivist.twitter}</p>
             <p>{this.state.selectedActivist.instagram}</p>
+            <h3>Herramientas digitales</h3>
+            <p>{this.state.selectedActivist.herramientas_digitales}</p>
             <button onClick={this.closePopup}>Cerrar</button>
           </Popup>
         )}
