@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/archivos-digitales/static/css/main.7edee3f9.chunk.css",
-    "main.js": "/archivos-digitales/static/js/main.08c888da.chunk.js",
-    "main.js.map": "/archivos-digitales/static/js/main.08c888da.chunk.js.map",
+    "main.css": "/archivos-digitales/static/css/main.5706ed94.chunk.css",
+    "main.js": "/archivos-digitales/static/js/main.285006b1.chunk.js",
+    "main.js.map": "/archivos-digitales/static/js/main.285006b1.chunk.js.map",
     "runtime-main.js": "/archivos-digitales/static/js/runtime-main.80a1d64e.js",
     "runtime-main.js.map": "/archivos-digitales/static/js/runtime-main.80a1d64e.js.map",
     "static/js/2.9c5a05a8.chunk.js": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js",
     "static/js/2.9c5a05a8.chunk.js.map": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.map",
     "index.html": "/archivos-digitales/index.html",
-    "precache-manifest.e7bf185433faf8f6f0a4f08171570067.js": "/archivos-digitales/precache-manifest.e7bf185433faf8f6f0a4f08171570067.js",
+    "precache-manifest.27664936d53e39a5abc04fd2ac5e1872.js": "/archivos-digitales/precache-manifest.27664936d53e39a5abc04fd2ac5e1872.js",
     "service-worker.js": "/archivos-digitales/service-worker.js",
-    "static/css/main.7edee3f9.chunk.css.map": "/archivos-digitales/static/css/main.7edee3f9.chunk.css.map",
+    "static/css/main.5706ed94.chunk.css.map": "/archivos-digitales/static/css/main.5706ed94.chunk.css.map",
     "static/js/2.9c5a05a8.chunk.js.LICENSE.txt": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.LICENSE.txt",
     "static/media/activismo-home.png": "/archivos-digitales/static/media/activismo-home.2bf0435f.png",
     "static/media/activismo.png": "/archivos-digitales/static/media/activismo.ec9769f3.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.80a1d64e.js",
     "static/js/2.9c5a05a8.chunk.js",
-    "static/css/main.7edee3f9.chunk.css",
-    "static/js/main.08c888da.chunk.js"
+    "static/css/main.5706ed94.chunk.css",
+    "static/js/main.285006b1.chunk.js"
   ]
 }
