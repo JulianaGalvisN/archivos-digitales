@@ -35,7 +35,7 @@ function Marcos(props) {
             información que se consigna allí.
           </p>
         </div>
-        <h3 className="subtitle">Activismo de género</h3>
+        <h3 className="subtitle">Activismo de mujeres y LGBT</h3>
         <div className="paragraph">
           <p>
             El activismo de mujeres y LGBT se comprende como las acciones de

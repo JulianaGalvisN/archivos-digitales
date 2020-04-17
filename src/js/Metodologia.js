@@ -7,7 +7,8 @@ function Metodologia(props) {
   return (
     <div className="Metodologia">
       <Banner
-        title1="Metodología"
+        title1="Qué hacer"
+        title2="con el archivo"
         bgImage={metodologia}
         height="350px"
         margin="Banner margin"
@@ -49,11 +50,7 @@ function Metodologia(props) {
               el tipo de información que nos interesa en un archivo digital:
             </p>
             <p>
-              1. No descartar los archivos que tienen información general, como
-              el Archivo General de la Nación o la Red Nacional de Bibliotecas
-              Públicas, ya que estos pueden contener información útil. En estos
-              casos debe poderse realizar búsquedas y filtros de información de
-              utilidad para la usuaria.
+              1. No descartar los archivos que tienen información general, como el Archivo General de la Nación o la Red Nacional de Bibliotecas Públicas, ya que estos pueden contener información útil. En estos casos debe poderse realizar búsquedas y filtros de información  de utilidad para quien la utilice.
             </p>
             <p>
               2. Revisar toda la estructura de la página web del archivo, en
@@ -70,13 +67,7 @@ function Metodologia(props) {
               puede brindar mayor información sobre el tema de interés.
             </p>
             <p>
-              4. Cuando se encuentran dentro de las páginas web algunas opciones
-              de búsqueda de información (como una barra o un menú de búsqueda),
-              se utilicen palabras clave en relación al tema de exploración.
-              Algunas de estas palabras clave pueden ser: mujer, activismo de
-              género, género, lgbt, gay, homosexual, transexual, transgénero,
-              feminismo, activismo feminista, activismo lgbt, activismo gay,
-              activismo homosexual, activismo transgénero, entre otras.
+              4. Cuando se encuentran dentro de las páginas web algunas opciones de búsqueda de información (como una barra o un menú de búsqueda), se pueden utilizar palabras clave en relación al tema de exploración. Algunas de estas palabras clave pueden ser: mujer, activismo de género, género, lgbt, gay, homosexual, transexual, transgénero, feminismo, activismo feminista, activismo lgbt, activismo gay, activismo homosexual, activismo transgénero, entre otras.
             </p>
             <p>
               5. No descartar que es posible realizar derechos de petición de
@@ -213,9 +204,9 @@ function Metodologia(props) {
               traducida a unos formatos mucho más comprensibles?
             </p>
           </div>
-        </div>
-      </div>
-    </div>
+          </div>
+          </div>
+          </div>
   );
 }
 

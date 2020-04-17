@@ -27,10 +27,10 @@ function Navbar(props) {
             Archivos
           </NavLink>
           <NavLink to="/activismo" className="link">
-            Activismo
+            Activistas
           </NavLink>
           <NavLink to="/metodologia" className="link">
-            Metodología
+            Qué hacer con el archivo
           </NavLink>
         </div>
       </div>

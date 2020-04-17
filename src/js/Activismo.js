@@ -100,7 +100,7 @@ class Activismo extends React.Component {
           </Popup>
         )}
         <Banner
-          title1="Activismo"
+          title1="Activistas"
           title2="de mujeres y LGBT"
           bgImage={activismo}
           height="350px"
@@ -110,12 +110,12 @@ class Activismo extends React.Component {
         <div className="paragraph">
           <p>
             Para conocer un poco sobre el activismo de mujeres y LGBT en
-            Colombia, te invitamos a conocer la línea de tiempo de hechos
-            históricos importantes en Colombia.
+            Colombia, te invitamos a explorar la lista de activistas. Puedes
+            filtrar por tema o barra buscadora.
           </p>
           <p>
-            Si quieres explorar una lista de activistas de mujeres y LGBT, te
-            invitamos a filtrar por tema o utilizar la barra buscadora.
+            También puedes conocer la línea de tiempo de hechos
+            históricos importantes para el activismo de mujeres y LGBT.
           </p>
           <p>
             Si deseas cambiar, adicionar o quitar información de esta sección
@@ -177,10 +177,10 @@ class Activismo extends React.Component {
           </div>
         </div>
 
-        <iframe
+        <iframe className="iframe"
           title="Timeline"
           src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1XNkzcy7NfNLeE6pEY50m2-PynjeAdBJxFQw0-I_HaWs&font=Default&lang=en&initial_zoom=2&height=650"
-          width="100%"
+          width="90%"
           height="600"
           frameBorder="0"
         ></iframe>
