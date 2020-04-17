@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/archivos-digitales/static/css/main.5706ed94.chunk.css",
-    "main.js": "/archivos-digitales/static/js/main.ddbd754b.chunk.js",
-    "main.js.map": "/archivos-digitales/static/js/main.ddbd754b.chunk.js.map",
+    "main.js": "/archivos-digitales/static/js/main.0392dd74.chunk.js",
+    "main.js.map": "/archivos-digitales/static/js/main.0392dd74.chunk.js.map",
     "runtime-main.js": "/archivos-digitales/static/js/runtime-main.80a1d64e.js",
     "runtime-main.js.map": "/archivos-digitales/static/js/runtime-main.80a1d64e.js.map",
     "static/js/2.9c5a05a8.chunk.js": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js",
     "static/js/2.9c5a05a8.chunk.js.map": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.map",
     "index.html": "/archivos-digitales/index.html",
-    "precache-manifest.10f7096ea43c68a6f17edb244e031143.js": "/archivos-digitales/precache-manifest.10f7096ea43c68a6f17edb244e031143.js",
+    "precache-manifest.e0cf491a38e5b463d2047b7798cffa3c.js": "/archivos-digitales/precache-manifest.e0cf491a38e5b463d2047b7798cffa3c.js",
     "service-worker.js": "/archivos-digitales/service-worker.js",
     "static/css/main.5706ed94.chunk.css.map": "/archivos-digitales/static/css/main.5706ed94.chunk.css.map",
     "static/js/2.9c5a05a8.chunk.js.LICENSE.txt": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.LICENSE.txt",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.80a1d64e.js",
     "static/js/2.9c5a05a8.chunk.js",
     "static/css/main.5706ed94.chunk.css",
-    "static/js/main.ddbd754b.chunk.js"
+    "static/js/main.0392dd74.chunk.js"
   ]
 }
