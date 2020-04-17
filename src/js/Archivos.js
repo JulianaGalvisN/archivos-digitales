@@ -100,6 +100,9 @@ class Archivos extends React.Component {
               {' - '}
               {this.state.selectedArchive.lugar}
             </p>
+            <p>
+              {this.state.selectedArchive['url']}
+            </p>
             <h3>Descripción</h3>
             <p>{this.state.selectedArchive.descripcion}</p>
             <h3>¿Cómo acceder a la información?</h3>
