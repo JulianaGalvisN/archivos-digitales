@@ -18,7 +18,7 @@ function Navbar(props) {
             Inicio
           </NavLink>
           <NavLink to="/about" className="link">
-            Este manual
+            Acerca de
           </NavLink>
           <NavLink to="/marcos-de-referencia" className="link">
             Marcos de referencia
@@ -31,9 +31,6 @@ function Navbar(props) {
           </NavLink>
           <NavLink to="/metodologia" className="link">
             Qué hacer con el archivo
-          </NavLink>
-          <NavLink to="/acerca_de" className="link">
-            Acerca de
           </NavLink>
         </div>
       </div>

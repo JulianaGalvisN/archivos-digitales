@@ -6,7 +6,6 @@ import Archivos from './Archivos';
 import Marcos from './Marcos';
 import Activismo from './Activismo';
 import Metodologia from './Metodologia';
-import Acerca_de from './Acerca_de';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -22,7 +21,6 @@ function Router() {
           <Route path="/marcos-de-referencia" component={Marcos} />
           <Route path="/activismo" component={Activismo} />
           <Route path="/metodologia" component={Metodologia} />
-          <Route path="/acerca_de" component={Acerca_de} />
         </Switch>
         <Footer />
       </div>

@@ -37,6 +37,58 @@ function About(props) {
 
       <div className="headline-container">
         <div className="headline">
+          <h2 className="title">Acerca de </h2>
+          <div className="paragraph">
+            <p>
+              La disponibilización de este material responde a tres procesos de
+              recolección de fuentes primarias, el primero consistió en la
+              recolección de fuentes académicas sobre los conceptos de archivo,
+              archivo digital, activismo de mujeres y LGBT, y archivo con
+              enfoque de género. El segundo es una base de datos con
+              información sobre los archivos digitales existentes en Colombia y
+              cómo obtener insumos relevantes de cada uno, sobre activistas y
+              organizaciones que realizan activismo en Colombia, y sobre los
+              hechos históricos más importantes del activismo de género en el
+              país. Y por último, en la fase final del proyecto hubo una
+              recolección de información a través de entrevistas a activistas
+              de mujeres y LGBT, cuya participación permitió indagar desde su
+              perspectiva y lucha social, asuntos relacionados al ejercicio de
+              su activismo y cómo a éste le puede interesar o serle útil el
+              archivo digital.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="headline-left">
+        <h2 className="title">Diseño y desarrollo web</h2>
+        <div className="paragraph">
+          <p>
+            Este proyecto se ha realizado con material gráfico de dominio
+            público y utilizando licencias Creative Commons. La imágen de
+            inicio referente a María Cano, es una composición tipo collage de
+            varias imágenes gráficas, la fotografía se llama María de los
+            Ángeles Cano Márquez, 1926. Fotografía Rodríguez. Colección
+            Biblioteca Pública Piloto. Tomada de: Revista Credencial Historia,
+            N°280.
+          </p>
+          <p>
+          Las fotografías divulgadas en el proyecto fueron tomadas por Andrés
+          Callejas en la marcha del Día Internacional de la Mujer Trabajadora
+          del 8 de Marzo de 2020.
+          </p>
+          <p>
+          El desarrollo web se realizó utilizando la librería React JS de
+          Facebook, que utiliza el lenguaje de programación de Javascript. El
+          código y la documentación del proceso de investigación que acompañó
+          el desarrollo de la aplicación web se encuentra abierto en el
+          repositorio de <a href="https://github.com/JulianaGalvisN/archivos-digitales">Github</a>. Además, las bases de datos se encuentran abiertas y disponibles <a href="https://docs.google.com/spreadsheets/d/1rycxptkQFpQQaPsWwVcSqAvqu7LqnqA85XtT3RMPcGI/edit?usp=sharing">aquí</a>.
+          </p>
+        </div>
+      </div>
+
+      <div className="headline-container">
+        <div className="headline">
           <h2 className="title">Para qué se hace</h2>
           <div className="paragraph">
             <p>
