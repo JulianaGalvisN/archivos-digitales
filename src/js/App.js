@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
-import linea_tiempo from '../images/linea_tiempo.png';
-import archivo from '../images/archivo.png';
+import linea_tiempo from '../images/bannernuevo-10.png';
+import archivo from '../images/bannernuevo-09.png';
 import activismo_img from '../images/activismo-home.png';
 import cano from '../images/cano.png';
 import '../css/reset.css';

@@ -32,6 +32,9 @@ function Navbar(props) {
           <NavLink to="/metodologia" className="link">
             Qué hacer con el archivo
           </NavLink>
+          <NavLink to="/acerca_de" className="link">
+            Acerca de
+          </NavLink>
         </div>
       </div>
       <NavbarResponsive />

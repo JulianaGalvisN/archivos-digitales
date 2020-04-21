@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
-import este_manual from '../images/este-manual.png';
+import este_manual from '../images/bannernuevo-07.png';
 import '../css/About.css';
 
 function About(props) {

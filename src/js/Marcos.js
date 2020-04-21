@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import { Link } from 'react-router-dom';
-import marcos from '../images/marcos.png';
+import marcos from '../images/bannernuevo-08.png';
 import '../css/marcos.css';
 
 function Marcos(props) {

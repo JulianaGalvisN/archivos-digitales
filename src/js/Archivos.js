@@ -3,7 +3,7 @@ import Banner from './Banner';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
 import Popup from './Popup';
-import archivo from '../images/banner-archivos.png';
+import archivo from '../images/bannernuevo-09.png';
 import lupa from '../images/lupa.svg';
 import '../css/Archivos.css';
 

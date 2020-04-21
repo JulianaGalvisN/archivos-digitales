@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
-import metodologia from '../images/metodologia.png';
+import metodologia from '../images/bannernuevo-11.png';
 import '../css/Metodologia.css';
 
 function Metodologia(props) {

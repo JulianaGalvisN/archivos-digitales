@@ -3,7 +3,7 @@ import Banner from './Banner';
 import Dropdown from './Dropdown';
 import Archivo from './Archivo';
 import Popup from './Popup';
-import activismo from '../images/activismo.png';
+import activismo from '../images/bannernuevo-10.png';
 import lupa from '../images/lupa.svg';
 import '../css/activismo.css';
 
