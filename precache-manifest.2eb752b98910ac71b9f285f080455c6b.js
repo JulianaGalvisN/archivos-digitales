@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "822fab7e8992d00fdf502f4e57b83e1b",
+    "revision": "a961d32f3a0a4b528ffca27f2d1cd38c",
     "url": "/archivos-digitales/index.html"
   },
   {
-    "revision": "0acf63965b63ee00bd0a",
+    "revision": "a87df3a06d19ffd661f7",
     "url": "/archivos-digitales/static/css/main.5706ed94.chunk.css"
   },
   {
-    "revision": "f5a59d0910ecd152d890",
-    "url": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js"
+    "revision": "33947cba8bdf67360fd7",
+    "url": "/archivos-digitales/static/js/2.30cbb05c.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/archivos-digitales/static/js/2.9c5a05a8.chunk.js.LICENSE.txt"
+    "url": "/archivos-digitales/static/js/2.30cbb05c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0acf63965b63ee00bd0a",
-    "url": "/archivos-digitales/static/js/main.0392dd74.chunk.js"
+    "revision": "a87df3a06d19ffd661f7",
+    "url": "/archivos-digitales/static/js/main.05f6b8ef.chunk.js"
   },
   {
     "revision": "93329a03660c33d64260",
@@ -28,16 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/archivos-digitales/static/media/activismo-home.2bf0435f.png"
   },
   {
-    "revision": "ec9769f3a34b352c38dabc1a740739ef",
-    "url": "/archivos-digitales/static/media/activismo.ec9769f3.png"
+    "revision": "fe72e57a4437e8e583493ed5c2652cb4",
+    "url": "/archivos-digitales/static/media/bannernuevo-07.fe72e57a.png"
   },
   {
-    "revision": "4ff35181605652e79725d53fc8380f3d",
-    "url": "/archivos-digitales/static/media/archivo.4ff35181.png"
+    "revision": "10b2ef3e01caccf53b50b3265cf88983",
+    "url": "/archivos-digitales/static/media/bannernuevo-08.10b2ef3e.png"
   },
   {
-    "revision": "cd99750a5cfd2f616dd38fc4cc449dc9",
-    "url": "/archivos-digitales/static/media/banner-archivos.cd99750a.png"
+    "revision": "1f173d6e38090d9bfba7e3ef37050bc3",
+    "url": "/archivos-digitales/static/media/bannernuevo-09.1f173d6e.png"
+  },
+  {
+    "revision": "bf51bca954b7e5a2cffaf51f802a3e3c",
+    "url": "/archivos-digitales/static/media/bannernuevo-10.bf51bca9.png"
+  },
+  {
+    "revision": "90bc0f209a95175130a94e2913351c02",
+    "url": "/archivos-digitales/static/media/bannernuevo-11.90bc0f20.png"
   },
   {
     "revision": "7fe043bde065e31b88e489630a34cf66",
@@ -48,20 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/archivos-digitales/static/media/cc.0f2b1601.svg"
   },
   {
-    "revision": "a4f8be0d5fdd7415d959325515a391ca",
-    "url": "/archivos-digitales/static/media/este-manual.a4f8be0d.png"
-  },
-  {
     "revision": "58f76f297dec60e2ddf23c2848b84c7d",
     "url": "/archivos-digitales/static/media/fb.58f76f29.svg"
   },
   {
     "revision": "84116c776ff85af1d56e6cb32f410d07",
     "url": "/archivos-digitales/static/media/hamburger.84116c77.svg"
-  },
-  {
-    "revision": "5f93011af56f7abcb9944158fc5ce541",
-    "url": "/archivos-digitales/static/media/linea_tiempo.5f93011a.png"
   },
   {
     "revision": "c3f4927bdf4f31f8e9a1763bb77d7984",
@@ -78,14 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2af67e473e8544a60b3bb4a48815cb8b",
     "url": "/archivos-digitales/static/media/mail.2af67e47.svg"
-  },
-  {
-    "revision": "9c5e890272ec5f51036c2b4fd1d0f2d5",
-    "url": "/archivos-digitales/static/media/marcos.9c5e8902.png"
-  },
-  {
-    "revision": "fcd773a540106e19b7192ec15dee8d99",
-    "url": "/archivos-digitales/static/media/metodologia.fcd773a5.png"
   },
   {
     "revision": "dc1517ea6dfc830090931e2f40d46947",
