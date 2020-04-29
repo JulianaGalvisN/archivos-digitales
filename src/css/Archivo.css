@@ -44,6 +44,7 @@
   padding: 10px;
   font-size: 1.1em;
   color: #fff;
+  cursor: pointer;
 }
 
 .archivo .button:hover {

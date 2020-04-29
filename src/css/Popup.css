@@ -4,14 +4,68 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   z-index: 9999;
+  overflow-y: scroll;
 }
 
 .popup-content {
   margin: auto;
-  max-width: 80%;
-  background-color: #ffffff;
-  padding: 30px;
+  max-width: 70%;
+  padding: 50px;
+  background-color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  overflow-y: scroll;
+}
+
+.popup-content .name {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  color: #ff3e71;
+  font-size: 1.8em;
+  line-height: 1em;
+  letter-spacing: -0.05em;
+  font-weight: normal;
+}
+
+.popup-content .author {
+  color: #cccccc;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 8px 0px;
+}
+
+.popup-content .subtitle {
+  margin-top: 30px;
+}
+
+.popup-content .description {
+  font-family: 'Spartan', sans-serif;
+  color: #232323;
+  font-size: 0.8em;
+  line-height: 1.55em;
+  margin-bottom: 40px;
+}
+
+.popup-content .button.url {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.popup-content .button {
+  cursor: pointer;
+  border: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232323;
+  font-weight: normal;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+.popup-content .button:hover {
+  color: #ff3e71;
 }

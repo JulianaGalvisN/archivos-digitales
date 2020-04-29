@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
 import Popup from './Popup';
+import { Link } from 'react-router-dom';
 import archivo from '../images/bannernuevo-09.png';
 import lupa from '../images/lupa.svg';
 import '../css/Archivos.css';
@@ -94,21 +95,19 @@ class Archivos extends React.Component {
       <div className="archivos">
         {this.state.visiblePopup && (
           <Popup>
-            <h2>{this.state.selectedArchive.nombre}</h2>
-            <p>
+            <h2 className="name">{this.state.selectedArchive.nombre}</h2>
+            <p className="author">
               {this.state.selectedArchive['autor-organizacion']}
-              {' - '}
+              {this.state.selectedArchive.lugar ? ' - ' : ''}
               {this.state.selectedArchive.lugar}
             </p>
-            <p>
-              {this.state.selectedArchive['url']}
-            </p>
-            <h3>Descripción</h3>
-            <p>{this.state.selectedArchive.descripcion}</p>
-            <h3>¿Cómo acceder a la información?</h3>
+            <h3 className="subtitle">Descripción</h3>
+            <p className="description">{this.state.selectedArchive.descripcion}</p>
+            <h3 className="subtitle">¿Cómo acceder a la información?</h3>
             {/* Will this be markdown formatted text? */}
-            <p>{this.state.selectedArchive['como-acceder-informacion']}</p>
-            <button onClick={this.closePopup}>Cerrar</button>
+            <p className="description">{this.state.selectedArchive['como-acceder-informacion']}</p>
+            <a href={this.state.selectedArchive['url']} target="_blank" rel="noopener noreferrer" className="button url">Ir al archivo</a>
+            <button onClick={this.closePopup} className="button">Cerrar</button>
           </Popup>
         )}
         <Banner
