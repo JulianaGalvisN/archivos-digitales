@@ -34,12 +34,19 @@
   height: auto;
 }
 
-.navbar .links {
-  display: none;
+.menu-close {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  align-self: flex-end;
 }
 
-.navbar.is-open {
-  width: calc(100% - var(--menu--width));
+.menu-close svg {
+  fill: #ffffff;
+}
+
+.navbar .links {
+  display: none;
 }
 
 .navbar.is-open .links {
@@ -72,6 +79,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .menu-close {
+    display: none;
+  }
+  
   .navbar.is-open {
     width: 100%;
   }
