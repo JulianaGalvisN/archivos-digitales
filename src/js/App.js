@@ -4,24 +4,23 @@ import linea_tiempo from '../images/bannernuevo-10.png';
 import archivo from '../images/bannernuevo-09.png';
 import activismo_img from '../images/activismo-home.png';
 import cano from '../images/cano.png';
-import '../css/reset.css';
 import '../css/App.css';
 
 function App() {
   return (
     <div className="App">
-      <div className="home">
-        <img className="image" src={cano} alt="Imagen de María Cano" />
-        <div className="headline-container">
-          <div className="headline">
-            <h1 className="title">Archivos</h1>
-            <h1 className="title">digitales</h1>
-            <h6 className="title subtitle">
+      <div className="App-home">
+        <img className="App-home-image" src={cano} alt="Imagen de María Cano" />
+        <div className="App-home-content">
+          <div className="App-home-headline">
+            <h2 className="title">Archivos</h2>
+            <h2 className="title">digitales</h2>
+            <h2 className="title">
               para activistas de mujeres y LGBT
-            </h6>
+            </h2>
           </div>
-          <div className="intro text">
-            <h2 className="title">¿Qué es?</h2>
+          <div className="App-home-text">
+            <h3 className="title rotated">¿Qué es?</h3>
             <div className="paragraph">
               <p>
                 Este proyecto es posible gracias a las luchas de las y los
@@ -36,11 +35,11 @@ function App() {
               </p>
               <p>
                 Esta herramienta contiene una lista de activistas de mujeres y
-                LGBT en Colombia, una lista de todos los
-                archivos digitales existentes en Colombia, unos marcos de
-                referencia sobre la legislación existente en Colombia y por
-                último una metodología sobre cómo identificar información
-                relevante en cada archivo digital.
+                LGBT en Colombia, una lista de todos los archivos digitales
+                existentes en Colombia, unos marcos de referencia sobre la
+                legislación existente en Colombia y por último una metodología
+                sobre cómo identificar información relevante en cada archivo
+                digital.
               </p>
             </div>
           </div>
@@ -48,20 +47,19 @@ function App() {
       </div>
 
       <Banner
-        title1="Explora"
-        title2="el archivo"
+        upperTitle="Explora"
+        lowerTitle="el archivo"
         link="/archivos"
         bgImage={archivo}
-        height="455px"
-        margin="Banner"
       />
 
-      <div className="activism">
-        <div className="image">
-          <img src={activismo_img} alt="Imagen de activismo de género" />
-        </div>
-        {/* Reutilizar este bloque de código para títulos y párrafos */}
-        <div className="text">
+      <div className="App-activism">
+        <img
+          className="App-activism-image"
+          src={activismo_img}
+          alt="Imagen de activismo de género"
+        />
+        <div className="App-activism-content">
           <div className="title-container">
             <h2 className="title">El activismo</h2>
             <h2 className="title">de mujeres y LGBT</h2>
@@ -74,16 +72,13 @@ function App() {
             existente.
           </p>
         </div>
-        {/* Hasta aquí */}
       </div>
 
       <Banner
-        title1="Explora la línea"
-        title2="de tiempo"
+        upperTitle="Explora la línea"
+        lowerTitle="de tiempo"
         link="/activismo"
         bgImage={linea_tiempo}
-        height="455px"
-        margin="Banner"
       />
     </div>
   );

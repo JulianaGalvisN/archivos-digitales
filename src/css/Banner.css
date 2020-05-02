@@ -1,35 +1,37 @@
 .Banner {
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  font-family: 'Share Tech Mono', monospace;
+  padding: 8rem 1rem;
+}
+
+.Banner-container {
+  align-items: center;
   color: white;
-  height: 455px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-family: 'Share Tech Mono', monospace;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.Banner h2.title {
-  margin-block-start: 0em;
-  font-size: 2.7em;
-  margin-block-end: 0em;
-  background-color: #232123;
-  color: #f4efed;
-  padding: 7px;
+.Banner-title {
+  text-align: center;
 }
 
-.Banner a.link {
-  margin-top: 15px;
+.Banner-link {
+  background-color: #ff3e71;
+  color: #232123;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5rem;
   text-decoration: none;
 }
 
-.Banner a.link h2.title {
-  background-color: #ff3e71;
-  color: #232123;
-}
-
-.Banner.margin {
-  margin: 0px 20px;
+@media screen and (min-width: 768px) {
+  .Banner-link {
+    font-size: 2rem;
+  }
 }

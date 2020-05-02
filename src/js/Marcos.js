@@ -7,11 +7,9 @@ function Marcos(props) {
   return (
     <div className="marcos">
       <Banner
-        title1="Marcos de"
-        title2="referencia"
+        upperTitle="Marcos de"
+        lowerTitle="referencia"
         bgImage={marcos}
-        height="350px"
-        margin="Banner margin"
       />
 
       <div className="headline-left">

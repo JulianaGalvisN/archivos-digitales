@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.title-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: #232123;
+  color: #f4efed;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rotated {
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); 
+  }
+}

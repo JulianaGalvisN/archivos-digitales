@@ -3,7 +3,6 @@ import Banner from './Banner';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
 import Popup from './Popup';
-import { Link } from 'react-router-dom';
 import archivo from '../images/bannernuevo-09.png';
 import lupa from '../images/lupa.svg';
 import '../css/Archivos.css';
@@ -111,11 +110,9 @@ class Archivos extends React.Component {
           </Popup>
         )}
         <Banner
-          title1="Los"
-          title2="archivos"
+          upperTitle="Los"
+          lowerTitle="archivos"
           bgImage={archivo}
-          height="300px"
-          margin="Banner margin"
         />
 
         <div className="headline-left">

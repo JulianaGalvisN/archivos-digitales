@@ -106,11 +106,9 @@ class Activismo extends React.Component {
           </Popup>
         )}
         <Banner
-          title1="Activistas"
-          title2="de mujeres y LGBT"
+          upperTitle="Activistas"
+          lowerTitle="de mujeres y LGBT"
           bgImage={activismo}
-          height="350px"
-          margin="Banner margin"
         />
 
         <div className="paragraph">

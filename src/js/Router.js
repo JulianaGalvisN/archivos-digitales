@@ -1,3 +1,5 @@
+import 'normalize.css/normalize.css';
+import '../css/global.css';
 import React from 'react';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import App from './App';

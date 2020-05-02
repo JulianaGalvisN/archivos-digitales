@@ -1,142 +1,135 @@
+.title.rotated {
+  display: inline-block;
+}
+
 .App {
   background-color: #f4efed;
   font-family: 'Spartan', sans-serif;
 }
 
-.App .home {
-  display: flex;
-  flex-direction: column;
-  padding-top: 30px;
-  align-items: center;
-}
-
-.App .home img.image {
-  width: 50%;
-  height: auto;
-}
-
 .App .title {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  background-color: #232123;
-  color: #f4efed;
-  padding: 8px;
   font-family: 'Share Tech Mono', monospace;
-  width: initial;
-  letter-spacing: -0.03em;
-  font-size: 2.7em;
 }
 
 .App .paragraph {
-  display: inline-block;
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1rem 0;
 }
 
 .App .paragraph p:first-of-type {
   margin-top: 0;
 }
 
-.App .headline {
+.App-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-home-content {
+  padding: 0 1rem;
+}
+
+.App-home-headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.App .headline-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.App .headline .title {
-  padding: 0px 10px;
-  font-size: 4em;
-  margin-top: 10px;
-}
-
-.App .headline .title:nth-child(2) {
+.App-home-headline .title:nth-child(2) {
   color: #ff3e71;
 }
 
-.App .headline .title.subtitle {
-  font-size: 1.2em;
-  padding: 5px 10px;
+.App-home-headline .title:nth-child(3) {
+  font-size: 1rem;
 }
 
-.App .intro {
-  display: flex;
-  align-items: flex-start;
-  align-content: center;
+.App-home-headline .title:not(:first-child) {
+  margin-top: 0.25rem;
 }
 
-.App .intro .title {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-size: 2.7em;
-  padding: 8px;
-  margin-right: 40px;
+.App-home-text {
+  margin-top: 4rem;
 }
 
-.App .intro.text {
-  margin-top: 80px;
-  margin-left: -13%;
-  width: 80%;
-}
-
-.App .intro.text .paragraph {
-  margin-bottom: 80px;
-
-}
-
-.App .activism {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  text-align: left;
-}
-
-.App .activism .image {
-  width: 40%;
-  max-width: 500px;
-  min-width: 400px;
-  height: 600px;
-}
-
-.App .activism .image img {
-  height: 100%;
-  width: auto;
-}
-
-.App .activism .text {
-  width: 40%;
-  max-width: 500px;
-  min-width: 400px;
-  padding-right: 10%;
-}
-
-.App .activism .title-container {
+.App-activism {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  position: relative;
 }
 
-.App .activism .title {
-  margin-bottom: 10px;
+.App-activism-content {
+  padding: 0 1rem;
+}
+
+.App-activism-content .title:not(:first-child) {
+  margin-top: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
+  .title.rotated {
+    font-size: 1.25rem;
+  }
 
-  .App .home {
+  .App-home {
     flex-direction: row;
+    align-items: flex-start;
+    padding-top: 1.875rem;
+    padding-right: 5%;
+  }
+
+  .App-home-image {
+    max-width: 50%;
+  }
+
+  .App-home-content {
+    padding: 0;
+  }
+
+  .App-activism {
+    flex-direction: row-reverse;
+    padding: 10rem 5%;
+  }
+
+  .App-activism-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80%;
+    max-width: 50%;
+  }
+
+  .App-activism-content {
+    padding: 0;
+    width: 60%;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title.rotated {
+    font-size: 2.5rem;
+  }
+
+  .App-home-text {
+    display: flex;
     align-items: flex-start;
   }
 
-  .App .home img.image {
-  /*  height: 80%;
-    width: auto;*/
-    margin-left: 5%;
+  .App-home-headline .title:nth-child(3) {
+    font-size: 1.5rem;
   }
 
+  .App-home-text .paragraph {
+    margin-top: 0;
+    margin-left: 1.25rem;
+  }
+
+  .App-activism-image {
+    height: 100%;
+  }
+
+  .App-activism-content {
+    width: 50%;
+  }
 }

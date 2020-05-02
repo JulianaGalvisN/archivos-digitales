@@ -7,11 +7,9 @@ function Metodologia(props) {
   return (
     <div className="Metodologia">
       <Banner
-        title1="Qué hacer"
-        title2="con el archivo"
+        upperTitle="Qué hacer"
+        lowerTitle="con el archivo"
         bgImage={metodologia}
-        height="350px"
-        margin="Banner margin"
       />
 
       <div className="headline-left">
