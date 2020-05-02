@@ -1,26 +1,32 @@
-#responsiveBar {
-  display: none;
-}
-
-#desktopBar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+:root {
+  --menu--width: 250px;
 }
 
 .topnav {
-  font-family: 'Spartan', sans-serif;
   background-color: #f4efed;
   color:#232123;
-  padding: 0 20px;
+  font-family: 'Spartan', sans-serif;
+  padding: 20px;
 }
 
-.topnav .navitem {
-  display: block;
+.topnav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-.topnav .logo a {
-  padding-left: 0;
+.topnav .logo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.topnav button.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .topnav img.logo {
@@ -28,37 +34,79 @@
   height: auto;
 }
 
-.topnav .links {
-  float: left;
+.navbar .links {
+  display: none;
+}
+
+.navbar.is-open {
+  width: calc(100% - var(--menu--width));
+}
+
+.navbar.is-open .links {
+  background-color: #000000;
+  bottom: 0;
   display: flex;
-  justify-content: flex-end;
-  flex-flow: row;
-  height: 100%;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: var(--menu--width);
+  z-index: 10;
 }
 
-.topnav .link {
-  min-width: 100px;
+.navbar.is-open .links a {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-.topnav a {
-  float: left;
+.navbar .links a {
   color: #000000;
-  text-align: center;
-  padding: 20px 20px;
+  font-size: 0.875rem;
   text-decoration: none;
-  font-size: 0.8em;
 }
 
-.topnav a:hover {
+.navbar .links a:hover {
   color: #ff3e71;
 }
 
-@media screen and (max-width: 1150px) {
-  #responsiveBar {
-    display: block;
+@media screen and (min-width: 1024px) {
+  .navbar.is-open {
+    width: 100%;
   }
 
-  #desktopBar {
+  .topnav .logo {
+    width: auto;
+  }
+
+  .topnav button.menu {
     display: none;
+  }
+
+  .navbar .links,
+  .navbar.is-open .links {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding: 0;
+    position: static;
+    width: auto;
+  }
+
+  .navbar.is-open .links a {
+    color: #000000;
+    margin-bottom: 0;
+    font-size: 0.875rem;
+  }
+
+  .navbar .links a {
+    margin-right: 20px;
+  }
+
+  .navbar .links a:last-child {
+    margin-right: 0;
   }
 }
