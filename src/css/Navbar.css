@@ -82,7 +82,7 @@
   .menu-close {
     display: none;
   }
-  
+
   .navbar.is-open {
     width: 100%;
   }
@@ -114,7 +114,7 @@
   }
 
   .navbar .links a {
-    margin-right: 20px;
+    margin-right: 35px;
   }
 
   .navbar .links a:last-child {
