@@ -36,6 +36,11 @@
   align-items: flex-start;
 }
 
+.App-home-headline .title {
+  font-size: 3rem;
+  padding: 0.2rem 0.5rem;
+}
+
 .App-home-headline .title:nth-child(2) {
   color: #ff3e71;
 }
@@ -45,7 +50,7 @@
 }
 
 .App-home-headline .title:not(:first-child) {
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
 .App-home-text {
@@ -114,6 +119,10 @@
   .App-home-text {
     display: flex;
     align-items: flex-start;
+  }
+
+  .App-home-headline .title {
+    font-size: 4rem;
   }
 
   .App-home-headline .title:nth-child(3) {
