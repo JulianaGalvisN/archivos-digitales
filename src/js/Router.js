@@ -13,7 +13,7 @@ import Footer from './Footer';
 
 function Router() {
   return (
-    <BrowserRouter basename="/archivos-digitales">
+    <BrowserRouter>
       <div>
         <Navbar />
         <Switch>

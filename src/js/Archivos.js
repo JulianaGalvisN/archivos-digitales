@@ -1,4 +1,5 @@
 import React from 'react';
+import MarkdownIt from 'markdown-it';
 import Banner from './Banner';
 import Archivo from './Archivo';
 import Dropdown from './Dropdown';
@@ -6,6 +7,8 @@ import Popup from './Popup';
 import archivo from '../images/bannernuevo-09.png';
 import lupa from '../images/lupa.svg';
 import '../css/Archivos.css';
+
+const md = new MarkdownIt();
 
 const DB_URL =
   'https://script.googleusercontent.com/a/macros/randommonkey.io/echo?user_content_key=r_LlTdFIjSox2kwx0c-SHFJl8b_USSoUsov4azu48CN4hTM-GRYyNXHE84bYyEJ1FzBbf6a0g36u66YQmLrTN0ij7ra88Ui0m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_nRPgeZU6HP_F5M49av5jvMSEjbmACM01ubd_SaoYEJGgJfG4ynUykGlTovx4MdMsA_WKI32lApbywmIdVFRtWnWm9nNiWBhNB67k26AQb74G48i-EPPuBtz9Jw9Md8uu&lib=MGUgqta0UWIajlw18Y2HXqcPNf_ntfMqG';
@@ -101,19 +104,36 @@ class Archivos extends React.Component {
               {this.state.selectedArchive.lugar}
             </p>
             <h3 className="subtitle">Descripción</h3>
-            <p className="description">{this.state.selectedArchive.descripcion}</p>
+            <div
+              className="description"
+              dangerouslySetInnerHTML={{
+                __html: md.render(this.state.selectedArchive.descripcion),
+              }}
+            ></div>
             <h3 className="subtitle">¿Cómo acceder a la información?</h3>
             {/* Will this be markdown formatted text? */}
-            <p className="description">{this.state.selectedArchive['como-acceder-informacion']}</p>
-            <a href={this.state.selectedArchive['url']} target="_blank" rel="noopener noreferrer" className="button url">Ir al archivo</a>
-            <button onClick={this.closePopup} className="button">Cerrar</button>
+            <div
+              className="description"
+              dangerouslySetInnerHTML={{
+                __html: md.render(
+                  this.state.selectedArchive['como-acceder-informacion']
+                ),
+              }}
+            ></div>
+            <a
+              href={this.state.selectedArchive['url']}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button url"
+            >
+              Ir al archivo
+            </a>
+            <button onClick={this.closePopup} className="button">
+              Cerrar
+            </button>
           </Popup>
         )}
-        <Banner
-          upperTitle="Los"
-          lowerTitle="archivos"
-          bgImage={archivo}
-        />
+        <Banner upperTitle="Los" lowerTitle="archivos" bgImage={archivo} />
 
         <div className="headline-left">
           <div className="paragraph">
