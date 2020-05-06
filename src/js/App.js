@@ -29,9 +29,10 @@ function App() {
                 gozamos.
               </p>
               <p>
-                Es una herramienta abierta que indaga en el uso de los archivos
-                digitales existentes en Colombia la forma en que estos pueden
-                apoyar el trabajo de activistas de mujeres y LGBT en el país.{' '}
+                Es una herramienta abierta que recopila información sobre
+                archivos digitales en Colombia y ofrece un manual sobre cómo
+                encontrar información útil en los archivos para apoyar el
+                trabajo de activistas de mujeres y LGBT en el país.{' '}
               </p>
               <p>
                 Esta herramienta contiene una lista de activistas de mujeres y

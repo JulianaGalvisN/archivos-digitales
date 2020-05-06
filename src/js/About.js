@@ -13,18 +13,20 @@ function About(props) {
             <h2 className="About-headline title rotated">¿Qué es?</h2>
             <div className="paragraph">
               <p>
-                Este manual se crea en el marco de un proyecto de investigación de
-                maestría en Humanidades Digitales de la Universidad de Los Andes.
-                Consiste en brindar recursos sobre el archivo digital existente en
-                Colombia y su posible uso por parte de activistas de género en
-                Colombia.
+                Este manual busca brindar recursos sobre el archivo digital
+                existente en Colombia y su posible uso por parte de activistas
+                de mujeres y LGBT en Colombia.
               </p>
               <p>
-                Contiene una lista de activistas de mujeres y LGBT en Colombia,
-                una lista de todos los archivos digitales existentes en Colombia,
-                unos marcos de referencia sobre la legislación existente en
-                Colombia y por último una metodología sobre cómo identificar
-                información relevante en cada archivo digital.
+                Contiene una lista de activistas de mujeres y LGBT en Colombia
+                y una línea de tiempo de hitos del activismo en el país, una
+                herramienta que permite explorar todos los archivos digitales
+                existentes en Colombia con información sobre su uso, unos
+                marcos de referencia sobre la legislación existente en Colombia
+                respecto a archivos, algunos conceptos trabajados en el
+                proyecto, entre otros, y por último, una metodología más
+                esquemática sobre cómo identificar información relevante en
+                cada archivo digital.
               </p>
           </div>
           </div>
@@ -85,7 +87,16 @@ function About(props) {
             </p>
           </div>
         </div>
-
+        <div className="About-section">
+          <h2 className="About-headline title">Citación</h2>
+          <div className="paragraph">
+          <p>
+            El archivo digital para activistas de mujeres y LGBT en Colombia,
+            Juliana Galvis Nieto, Bogotá, 2020,
+            https://archivos-digitales.netlify.app/.
+          </p>
+          </div>
+        </div>
         <div className="About-section About-section--right">
           <h2 className="About-headline title">Para qué se hace</h2>
           <div className="paragraph">
@@ -124,14 +135,7 @@ function About(props) {
           </h2>
           <div className="paragraph">
             <p>
-              Cuando se habla de archivos, usualmente se relacionan con la forma
-              tradicional de recopilar información relevante, que consiste en
-              una sola copia del documento (no digital) reunida en repositorios
-              que contienen datos seleccionados para responder a diversos tipos
-              de intereses. Pero ahora, es necesario posicionarse en la nueva
-              era, que implica nuevas formas de ver los documentos y de
-              relacionarse con ellos a través de los procesos de la
-              digitalización.
+              Cuando se habla de archivos, usualmente se relacionan con la forma tradicional de recopilar información relevante, que consiste en una sola copia del documento (no digital) reunida en repositorios que contienen datos seleccionados para responder a diversos tipos de intereses. Pero ahora, es necesario posicionarse en la nueva era, que implica nuevas formas de ver los documentos y de relacionarse con ellos a través de los procesos de la digitalización. 
             </p>
             <p>
               Podríamos caracterizar los archivos digitales de acuerdo con
