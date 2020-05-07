@@ -1,68 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# El archivo digital para activistas de mujeres y LGBT en Colombia
 
-## Available Scripts
+Juliana Galvis Nieto
 
-In the project directory, you can run:
+## Resumen
 
-### `npm start`
+El presente proyecto pretende contribuir a los estudios de las Humanidades Digitales a través de una herramienta digital para que activistas de género en el país puedan seguir impulsando sus propuestas de cambio social por medio del uso del archivo digital. En el archivo son guardados y preservados los documentos y otros materiales de interés público e histórico.  Históricamente, estos se han construido a partir del enfoque en el hombre heterosexual quien ha sido el creador y productor de la historia y el patrimonio de las sociedades. Por eso, para que identidades históricamente excluidas del discurso social tengan una voz y puedan luchar por sus derechos, el activismo de mujeres y LGBT puede ejercer acciones en torno al acceso a la información del discurso histórico y patrimonial de los archivos digitales, que en últimas es un puente para dar sentido y vigencia a la realidad y a diversificar la producción documental. Por lo tanto, la presente investigación busca responder a la pregunta de cómo y por qué los archivos digitales pueden apoyar el trabajo de activistas de mujeres y LGBT en Colombia para que éste continúe proponiendo cambios en el orden social.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Palabras clave
+Archivo, archivo digital, género, activismo de mujeres, activismo LGBT, activismo de género, Colombia, Humanidades Digitales.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Prototipo web
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://archivos-digitales.netlify.app/
