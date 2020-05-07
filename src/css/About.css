@@ -39,6 +39,12 @@
 
   .About-section-content .paragraph {
     margin-left: 1.25rem;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .About-section .paragraph{
+    font-size: 1em;
+    line-height: 1.5em;
   }
 }
 
