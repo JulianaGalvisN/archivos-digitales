@@ -8,6 +8,9 @@ import Archivos from './Archivos';
 import Marcos from './Marcos';
 import Activismo from './Activismo';
 import Metodologia from './Metodologia';
+import SeccionIdentificar from './SeccionIdentificar';
+import SeccionAnalizar from './SeccionAnalizar';
+import SeccionUtilizar from './SeccionUtilizar';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -22,7 +25,10 @@ function Router() {
           <Route path="/archivos" component={Archivos} />
           <Route path="/marcos-de-referencia" component={Marcos} />
           <Route path="/activismo" component={Activismo} />
-          <Route path="/metodologia" component={Metodologia} />
+          <Route exact path="/metodologia" component={Metodologia} />
+          <Route path="/metodologia/identificar" component={SeccionIdentificar} />
+          <Route path="/metodologia/analizar" component={SeccionAnalizar} />
+          <Route path="/metodologia/utilizar" component={SeccionUtilizar} />
         </Switch>
         <Footer />
       </div>

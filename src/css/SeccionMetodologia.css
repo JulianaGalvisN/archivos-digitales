@@ -1,0 +1,48 @@
+.SeccionMetodologia {
+  background-color: #f4efed;
+  font-family: 'Spartan', sans-serif;
+}
+
+.SeccionMetodologia .title {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  background-color: #232123;
+  color: #f4efed;
+  padding: 8px;
+  font-family: 'Share Tech Mono', monospace;
+  width: initial;
+  letter-spacing: -0.03em;
+  font-size: 2.7em;
+}
+
+.SeccionMetodologia .paragraph {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.SeccionMetodologia .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10%;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.SeccionMetodologia .headline .paragraph {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.SeccionMetodologia .Banner-link {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: #ff3e71;
+  color: #232123;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem;
+  text-decoration: none;
+}
